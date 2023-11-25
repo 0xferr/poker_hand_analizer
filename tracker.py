@@ -6,7 +6,7 @@ START_DIR = r"C:\MyHandsArchive_H2N\Pacific\2023"
 START_DIR2 = r"C:\MyHandsArchive_H2N\2023\6\4"
 
 
-def analyze_dir(trdb, hh_dir=TEST_DIR, ids_in_db=set()):
+def analyze_dir(trdb: tracker_db, hh_dir=TEST_DIR, ids_in_db=set()):
     # output = []
     for subdir, dirs, files in os.walk(hh_dir):
         print(f"importing {subdir + os.sep}")
@@ -40,8 +40,9 @@ if False:
 
 # Test parse_file + parse_hand + import_hand
 if True:
-    trdb = tracker_db(clear_tables=False)
+    trdb = tracker_db(clear_tables=True)
     ids_in_db = set()
+    trdb.hand_exist()
     try:
         analyze_dir(trdb, hh_dir=START_DIR2)
 

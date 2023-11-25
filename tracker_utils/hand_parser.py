@@ -1,25 +1,25 @@
 from datetime import datetime
 import re
 import pytz
+from decimal import *
 
 
-def int_to_str(number):
-    temp = round(number / 100)
-    return temp  # [:-2] + "." + temp[-2:]
+def int_to_str(number: int):
+    temp = str(number)
+    return temp[:-2] + "." + temp[-2:]
 
 
-def str_to_int(number):
-    return round(float(number) * 100)
-
-
-def find_digits(str):
-    res = re.findall("\d+\.\d+", str)
+def find_digits(num: str):
+    res = re.findall("\d+\.\d+", num)
     if len(res) == 0:
-        res = re.findall("\d+", str)
-    return str_to_int(res[-1])
+        res = re.findall("\d+", num)
+        if len(res) == 0:
+            print(f"Error: Diffrent format of hand")
+            return None
+    return Decimal(res[-1])
 
 
-def parse_hand(hand_id, hh):
+def parse_hand(hand_id: int, hh: str):
     # Constants
     NAMES = "Seat \d{1,2}: (\S+) "
     BLINDS = " posts "
@@ -38,7 +38,6 @@ def parse_hand(hand_id, hh):
     LOCAL_TZ = "Asia/Tbilisi"
 
     no_names = " posts"
-    skip_hand = False
 
     # vars
     players_bets = {}
@@ -46,7 +45,7 @@ def parse_hand(hand_id, hh):
     wins = {}
     ante = {}
     timestamp = None
-    game_limit = 0.0
+    game_limit = 0
     game_type = ""
 
     # Detecting game type
@@ -60,7 +59,7 @@ def parse_hand(hand_id, hh):
     # Detect blinds level
     srch = re.findall(LIMITS, hh)
     if srch and len(srch) == 1:
-        game_limit = str_to_int(srch[0])
+        game_limit = 100 * Decimal(srch[0])
 
     # collect all players' names
     players = re.findall(NAMES, hh)
@@ -82,27 +81,35 @@ def parse_hand(hand_id, hh):
         # timestamp = dt.strftime("%d/%m/%Y, %H:%M:%S")
     else:
         print(f"Hand doesn't contain datetime. Skipping hand# {hand_id} ...")
+        return None
 
     # Extracting actions
     lines = re.split("\n", hh)
     for line in lines:
         if line.startswith(no_names):
             print(f"Hand doesn't contain Names. Skipping hand# {hand_id} ...")
-            return int(hand_id), timestamp, hh, 0
+            return None
         # search and extract bets for players in pot
         if BLINDS in line or CALL in line or BET in line or RAISE in line:
             words = line.split()
             player = words[0]
             bet = find_digits(words[-1])
+            if bet is None:
+                return None
             players_bets[player] += bet
             if ANTE in line:
+                dead = find_digits(words[-3])
+                if dead is None:
+                    return None
                 ante.update({player: find_digits(words[-3])})
         # search and extract hand result
         elif COLLECT in line:
             words = line.split()
             player = words[0]
-            won_sidepot = find_digits(words[-2])
-            won = won_sidepot + wins.get(player, 0)
+            sidepot = find_digits(words[-2])
+            if sidepot is None:
+                return None
+            won = sidepot + wins.get(player, 0)
             wins.update({player: won})
 
     # Calculating rake paid
@@ -123,20 +130,20 @@ def parse_hand(hand_id, hh):
         print(
             f" ERROR: Negative Rake\n @ hand {hand_id}\n Rake={rake}\n Pot={pot}\n Won={won}\n players_bets{players_bets}\n Wins={wins}\n Ante={ante} "
         )
-        return int(hand_id), timestamp, 0
+        return None
     if rake > 0 and not (FLOP in hh):
         print(
             f" ERROR Rake at No flop\n @ hand {hand_id}\n Rake={rake}\n Pot={pot}\n Won={won}\n players_bets{players_bets}\n Wins={wins}\n Ante={ante} "
         )
-        rake = 0
+        return None
 
     # prepare outpup
     output = [
         int(hand_id),
+        timestamp,
         hh,
         game_type,
         game_limit,
-        timestamp,
         len(players),
         pot,
         rake,
@@ -153,12 +160,11 @@ def parse_hand(hand_id, hh):
     return output
 
 
-def parse_file(file, ids_in_db=None):
+def parse_file(file: str, ids_in_db=None):
     NEW_HAND_TEXT = "888poker Hand History for Game (\d{7,12})"
     TOURNAMENT = "Tournament #"
 
     output = []
-    game_type = ""
     hands_imported = 0
 
     # Skipping Tournaments
@@ -177,14 +183,18 @@ def parse_file(file, ids_in_db=None):
             continue
         # check if more than one hand in text
         if len(id) != 1:
-            print(f"More than one hand in text: ID: {id}")
-        # skipping hands that already exist in DB
-        if id[0] in ids_in_db:
+            print(f"More than one hand in text: ID: {id}\nHH:\n{hand}")
             continue
-        parsed_hand = parse_hand(id[0], hand)
+        id = int(id[0])
+        # skipping hands that already exist in DB
+        if id in ids_in_db:
+            continue
+        parsed_hand = parse_hand(id, hand)
+        if parsed_hand is None:
+            print(f"Empty hand returned: ID: {id}\nHH:\n{hand}")
+            continue
         output.append(parsed_hand)
         hands_imported += 1
-    # print(f"Hands imported {hands_imported}. Lenght of hands var = {len(hands)}")
     return output
 
 

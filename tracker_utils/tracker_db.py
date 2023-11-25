@@ -54,17 +54,17 @@ class tracker_db:
                     CREATE TABLE {self.MAIN_TABLE} 
                     (
                         id INTEGER PRIMARY KEY,
+                        datetime TIMESTAMP WITH TIME ZONE,
                         hh TEXT,
                         game VARCHAR(4),
                         blind_level INTEGER,
-                        datetime TIMESTAMP WITH TIME ZONE,
                         players_in_hand INTEGER,
-                        total_pot INTEGER,
-                        rake INTEGER,
+                        total_pot DECIMAL(10, 2),
+                        rake DECIMAL(10, 2),
                 """
         command += (
             ",".join(
-                f"p{x} VARCHAR(30), p{x}_cards VARCHAR(17), p{x}_bets INTEGER, p{x}_result INTEGER"
+                f"p{x} VARCHAR(30), p{x}_cards VARCHAR(17), p{x}_bets DECIMAL(10, 2), p{x}_result DECIMAL(10, 2)"
                 for x in range(1, 11)
             )
             + ")"
@@ -75,7 +75,7 @@ class tracker_db:
         self.conn.commit()
 
     # Checks if hand is DB already
-    def hand_exist(self, id):
+    def hand_exist(self, id: int):
         cur = self.conn.cursor()
         cur.execute(
             f"""
@@ -91,32 +91,32 @@ class tracker_db:
         return hand_exists
 
     # import one hand
-    def import_hand(self, id, *args):
+    def import_hand(self, hand: tuple | list):
         sql = f"INSERT INTO {self.MAIN_TABLE} VALUES %s"
         # check if hand already imported
-        if self.hand_exist(id):
+        if self.hand_exist(hand[0]):
             return False
         cur = self.conn.cursor()
         # fill the table
-        command = sql % (id, *args)
+        command = sql % hand
         cur.execute(command)
         cur.close()
         self.conn.commit()
         return True
 
     # import bunch of hands
-    def import_hands(self, hand_list):
+    def import_hands(self, hands: tuple | list):
         # removing from list hands that already exist in DB
-        hand_to_import = list(filter(lambda x: not self.hand_exist(x[0]), hand_list))
+        hands_to_import = list(filter(lambda x: not self.hand_exist(x[0]), hands))
         # check if there hands to import
-        if len(hand_to_import) == 0:
+        if len(hands_to_import) == 0:
             return False
 
         # bringing the lists of the hands_list to the same size, because psycopg2 is a piece of shit
-        hand_list.sort(key=len, reverse=True)
-        max_len = len(hand_list[0])
+        hands_to_import.sort(key=len, reverse=True)
+        max_len = len(hands_to_import[0])
         unified_hands = tuple(
-            map(lambda x: x + (max_len - len(x)) * [None], hand_to_import)
+            map(lambda x: x + (max_len - len(x)) * [None], hands_to_import)
         )
 
         # fill the table
