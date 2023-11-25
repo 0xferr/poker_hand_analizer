@@ -1,0 +1,39 @@
+#Game No : 693302491
+***** 888poker Hand History for Game 693302491 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 11 2023 01:19:40
+Table Cusco 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 6
+Seat 1: 1ietakettu14 ( $18.21 )
+Seat 2: Ursareasa14 ( $23.20 )
+Seat 4: 0xferr ( $39.02 )
+Seat 6: HdHd44 ( $10.10 )
+Seat 7: Emcolsson ( $36.18 )
+Seat 9: Masiello21 ( $12.71 )
+HdHd44 posts small blind [$0.10]
+Emcolsson posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Ks, 7c, 8s, 6c ]
+Masiello21 calls [$0.25]
+1ietakettu14 raises [$1.10]
+Ursareasa14 calls [$1.10]
+0xferr calls [$1.10]
+HdHd44 calls [$1]
+Emcolsson folds
+Masiello21 calls [$0.85]
+** Dealing flop ** [ 4s, 8c, 7h ]
+HdHd44 checks
+Masiello21 checks
+1ietakettu14 bets [$5.75]
+Ursareasa14 folds
+0xferr calls [$5.75]
+HdHd44 folds
+Masiello21 folds
+** Dealing turn ** [ 6s ]
+1ietakettu14 bets [$11.36]
+0xferr calls [$11.36]
+** Dealing river ** [ Ad ]
+** Summary **
+1ietakettu14 shows [ 9h, As, 9s, 5s ]
+0xferr shows [ Ks, 7c, 8s, 6c ]
+1ietakettu14 collected [ $37.97 ]

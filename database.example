@@ -1,0 +1,6 @@
+[postgresql]
+host=localhost
+database=py_hh
+user=postgres
+password=159753
+port=5432

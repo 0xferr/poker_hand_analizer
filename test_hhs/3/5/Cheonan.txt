@@ -1,0 +1,2533 @@
+
+
+***** 888poker Hand History for Game 576630892 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:20:36
+Table Cheonan 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $35.57 )
+Seat 2: 0xferr ( $25 )
+Seat 4: APRELb ( $5.43 )
+Seat 7: Aksolotli ( $9.68 )
+Seat 9: Teachjack ( $20.90 )
+Lana1226 posts small blind [$0.10]
+0xferr posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 8s, 5d, Ac, Qh ]
+APRELb folds
+Aksolotli folds
+Teachjack calls [$0.25]
+Lana1226 calls [$0.15]
+0xferr checks
+** Dealing flop ** [ 2s, As, Jd ]
+Lana1226 bets [$0.75]
+0xferr folds
+Teachjack calls [$0.75]
+** Dealing turn ** [ Js ]
+Lana1226 bets [$0.74]
+Teachjack folds
+** Summary **
+Lana1226 did not show his hand
+Lana1226 collected [ $2.14 ]
+
+***** 888poker Hand History for Game 576630918 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:21:13
+Table Cheonan 6 Max (Real Money)
+Seat 1 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $36.71 )
+Seat 2: 0xferr ( $24.75 )
+Seat 4: APRELb ( $5.43 )
+Seat 7: Aksolotli ( $9.68 )
+Seat 9: Teachjack ( $19.90 )
+0xferr posts small blind [$0.10]
+APRELb posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 4s, Th, 5d, 3h ]
+Aksolotli folds
+Teachjack calls [$0.25]
+Lana1226 calls [$0.25]
+0xferr folds
+APRELb raises [$0.85]
+Teachjack calls [$0.85]
+Lana1226 calls [$0.85]
+** Dealing flop ** [ Qd, Td, 6d ]
+APRELb checks
+Teachjack checks
+Lana1226 bets [$1.70]
+APRELb calls [$1.70]
+Teachjack folds
+** Dealing turn ** [ Jh ]
+APRELb checks
+Lana1226 bets [$2.24]
+APRELb raises [$2.63]
+Lana1226 calls [$0.39]
+** Dealing river ** [ 6h ]
+** Summary **
+Lana1226 shows [ 9h, Qs, 7d, Jd ]
+APRELb shows [ 4d, Ad, Kc, 6c ]
+APRELb collected [ $11.46 ]
+
+***** 888poker Hand History for Game 576630969 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:22:26
+Table Cheonan 6 Max (Real Money)
+Seat 2 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $31.28 )
+Seat 2: 0xferr ( $24.65 )
+Seat 4: APRELb ( $11.46 )
+Seat 7: Aksolotli ( $9.68 )
+Seat 9: Teachjack ( $18.80 )
+APRELb posts small blind [$0.10]
+Aksolotli posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 8s, 4h, Qd, 9h ]
+Teachjack calls [$0.25]
+Lana1226 calls [$0.25]
+0xferr folds
+APRELb calls [$0.15]
+Aksolotli raises [$1]
+Teachjack folds
+Lana1226 calls [$1]
+APRELb calls [$1]
+** Dealing flop ** [ 2c, 9c, Js ]
+APRELb checks
+Aksolotli checks
+Lana1226 bets [$2.25]
+APRELb folds
+Aksolotli folds
+** Summary **
+Lana1226 collected [ $3.80 ]
+
+***** 888poker Hand History for Game 576631011 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:23:30
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $33.83 )
+Seat 2: 0xferr ( $24.65 )
+Seat 4: APRELb ( $10.21 )
+Seat 7: Aksolotli ( $8.43 )
+Seat 9: Teachjack ( $18.55 )
+Aksolotli posts small blind [$0.10]
+Teachjack posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 3c, Kc, 8d, Ad ]
+Lana1226 folds
+0xferr raises [$0.85]
+APRELb calls [$0.85]
+Aksolotli calls [$0.75]
+Teachjack calls [$0.60]
+** Dealing flop ** [ 7h, 2d, 8c ]
+Aksolotli checks
+Teachjack checks
+0xferr checks
+APRELb checks
+** Dealing turn ** [ Qd ]
+Aksolotli checks
+Teachjack checks
+0xferr checks
+APRELb bets [$1.37]
+Aksolotli folds
+Teachjack folds
+0xferr calls [$1.37]
+** Dealing river ** [ 9d ]
+0xferr bets [$4.60]
+APRELb folds
+** Summary **
+0xferr collected [ $5.83 ]
+
+***** 888poker Hand History for Game 576631075 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:24:58
+Table Cheonan 6 Max (Real Money)
+Seat 7 is the button
+Total number of players : 6
+Seat 1: Lana1226 ( $33.83 )
+Seat 2: 0xferr ( $28.26 )
+Seat 4: APRELb ( $7.99 )
+Seat 6: Aquila2000 ( $8.54 )
+Seat 7: Aksolotli ( $7.58 )
+Seat 9: Teachjack ( $17.70 )
+Teachjack posts small blind [$0.10]
+Lana1226 posts big blind [$0.25]
+Aquila2000 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ As, 6c, Qs, 9h ]
+0xferr folds
+APRELb calls [$0.25]
+Aquila2000 checks
+Aksolotli raises [$1.35]
+Teachjack folds
+Lana1226 folds
+APRELb calls [$1.10]
+Aquila2000 calls [$1.10]
+** Dealing flop ** [ Ac, Qh, Jh ]
+APRELb checks
+Aquila2000 checks
+Aksolotli bets [$2.20]
+APRELb raises [$6.64]
+Aquila2000 folds
+Aksolotli folds
+** Summary **
+APRELb did not show his hand
+APRELb collected [ $8.36 ]
+
+***** 888poker Hand History for Game 576631109 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:25:55
+Table Cheonan 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 6
+Seat 1: Lana1226 ( $33.58 )
+Seat 2: 0xferr ( $28.26 )
+Seat 4: APRELb ( $12.80 )
+Seat 6: Aquila2000 ( $7.19 )
+Seat 7: Aksolotli ( $4.03 )
+Seat 9: Teachjack ( $17.60 )
+Lana1226 posts small blind [$0.10]
+0xferr posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 9c, 9d, 5c, 3s ]
+APRELb folds
+Aquila2000 calls [$0.25]
+Aksolotli raises [$1.10]
+Teachjack folds
+Lana1226 calls [$1]
+0xferr folds
+Aquila2000 calls [$0.85]
+** Dealing flop ** [ As, 5h, 7h ]
+Lana1226 bets [$3.55]
+Aquila2000 calls [$3.55]
+Aksolotli folds
+** Dealing turn ** [ Ad ]
+Lana1226 bets [$10.65]
+Aquila2000 calls [$2.54]
+** Dealing river ** [ Jc ]
+** Summary **
+Lana1226 shows [ Qh, Jh, 7c, 7d ]
+Aquila2000 shows [ 2s, Ah, 6s, 4h ]
+Lana1226 collected [ $14.94 ]
+
+***** 888poker Hand History for Game 576631148 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:26:55
+Table Cheonan 6 Max (Real Money)
+Seat 1 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $41.33 )
+Seat 2: 0xferr ( $28.01 )
+Seat 4: APRELb ( $12.80 )
+Seat 7: Aksolotli ( $2.93 )
+Seat 9: Teachjack ( $17.60 )
+0xferr posts small blind [$0.10]
+APRELb posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 7h, 4d, 5h, 2c ]
+Aksolotli raises [$0.85]
+Teachjack calls [$0.85]
+Lana1226 folds
+0xferr folds
+APRELb calls [$0.60]
+** Dealing flop ** [ 2d, 4s, Js ]
+APRELb checks
+Aksolotli bets [$2.08]
+Teachjack folds
+APRELb calls [$2.08]
+** Dealing turn ** [ Td ]
+** Dealing river ** [ 8d ]
+** Summary **
+APRELb shows [ Jc, Kh, 4c, 6c ]
+Aksolotli shows [ 4h, 7c, Qs, Ac ]
+APRELb collected [ $6.47 ]
+
+***** 888poker Hand History for Game 576631179 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:27:33
+Table Cheonan 6 Max (Real Money)
+Seat 2 is the button
+Total number of players : 4
+Seat 1: Lana1226 ( $41.33 )
+Seat 2: 0xferr ( $27.91 )
+Seat 4: APRELb ( $16.34 )
+Seat 9: Teachjack ( $16.75 )
+APRELb posts small blind [$0.10]
+Teachjack posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 8h, 6c, 9d, 3c ]
+Lana1226 calls [$0.25]
+0xferr calls [$0.25]
+APRELb calls [$0.15]
+Teachjack raises [$1]
+Lana1226 calls [$1]
+0xferr folds
+APRELb calls [$1]
+** Dealing flop ** [ 4c, 9h, 6s ]
+APRELb checks
+Teachjack checks
+Lana1226 bets [$2]
+APRELb calls [$2]
+Teachjack calls [$2]
+** Dealing turn ** [ Jd ]
+APRELb checks
+Teachjack checks
+Lana1226 checks
+** Dealing river ** [ 9s ]
+APRELb bets [$3.30]
+Teachjack calls [$3.30]
+Lana1226 calls [$3.30]
+** Summary **
+APRELb shows [ 8c, 9c, Tc, 3s ]
+Teachjack mucks [ Ks, As, Th, Ad ]
+Lana1226 mucks [ Jh, 7c, 5s, 5c ]
+APRELb collected [ $18.90 ]
+
+***** 888poker Hand History for Game 576631220 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:28:54
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 4
+Seat 1: Lana1226 ( $34.78 )
+Seat 2: 0xferr ( $27.66 )
+Seat 4: APRELb ( $28.69 )
+Seat 9: Teachjack ( $10.20 )
+Teachjack posts small blind [$0.10]
+Lana1226 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 8c, 6h, Ac, 7h ]
+0xferr raises [$0.85]
+APRELb folds
+Teachjack calls [$0.75]
+Lana1226 folds
+** Dealing flop ** [ 3h, 5c, Kh ]
+Teachjack bets [$0.97]
+0xferr calls [$0.97]
+** Dealing turn ** [ 6s ]
+Teachjack bets [$1.94]
+0xferr raises [$9.71]
+Teachjack folds
+** Summary **
+0xferr collected [ $7.38 ]
+
+***** 888poker Hand History for Game 576631251 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:29:39
+Table Cheonan 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $34.53 )
+Seat 2: 0xferr ( $31.28 )
+Seat 4: APRELb ( $28.69 )
+Seat 7: Aksolotli ( $25 )
+Seat 9: Teachjack ( $6.44 )
+Lana1226 posts small blind [$0.10]
+0xferr posts big blind [$0.25]
+Aksolotli posts dead blind [$0.10 + $0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Tc, 8d, 7h, 5c ]
+APRELb folds
+Aksolotli checks
+Teachjack folds
+Lana1226 calls [$0.15]
+0xferr checks
+** Dealing flop ** [ 7d, Kc, Kd ]
+Lana1226 checks
+0xferr checks
+Aksolotli checks
+** Dealing turn ** [ 5d ]
+Lana1226 bets [$0.56]
+0xferr folds
+Aksolotli folds
+** Summary **
+Lana1226 collected [ $0.81 ]
+
+***** 888poker Hand History for Game 576631286 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:30:26
+Table Cheonan 6 Max (Real Money)
+Seat 1 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $35.09 )
+Seat 2: 0xferr ( $31.03 )
+Seat 4: APRELb ( $28.69 )
+Seat 7: Aksolotli ( $25 )
+Seat 9: Teachjack ( $6.44 )
+0xferr posts small blind [$0.10]
+APRELb posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 2c, 3s, Qc, Th ]
+Aksolotli folds
+Teachjack folds
+Lana1226 raises [$0.85]
+0xferr folds
+APRELb calls [$0.60]
+** Dealing flop ** [ Qh, Jc, 6d ]
+APRELb checks
+Lana1226 bets [$1.80]
+APRELb calls [$1.80]
+** Dealing turn ** [ Kc ]
+APRELb checks
+Lana1226 checks
+** Dealing river ** [ 4c ]
+APRELb bets [$4.06]
+Lana1226 raises [$12.18]
+APRELb folds
+** Summary **
+Lana1226 collected [ $12.84 ]
+
+***** 888poker Hand History for Game 576631337 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:31:38
+Table Cheonan 6 Max (Real Money)
+Seat 2 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $41.22 )
+Seat 2: 0xferr ( $30.93 )
+Seat 4: APRELb ( $21.98 )
+Seat 7: Aksolotli ( $25 )
+Seat 9: Teachjack ( $6.44 )
+APRELb posts small blind [$0.10]
+Aksolotli posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Js, 5s, Ac, 8h ]
+Teachjack calls [$0.25]
+Lana1226 calls [$0.25]
+0xferr folds
+APRELb raises [$0.40]
+Aksolotli folds
+Teachjack calls [$0.25]
+Lana1226 calls [$0.25]
+** Dealing flop ** [ Jc, Tc, 4c ]
+APRELb checks
+Teachjack checks
+Lana1226 bets [$0.87]
+APRELb folds
+Teachjack folds
+** Summary **
+Lana1226 collected [ $1.66 ]
+
+***** 888poker Hand History for Game 576631362 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:32:20
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $42.38 )
+Seat 2: 0xferr ( $30.93 )
+Seat 4: APRELb ( $21.48 )
+Seat 7: Aksolotli ( $25 )
+Seat 9: Teachjack ( $5.94 )
+Aksolotli posts small blind [$0.10]
+Teachjack posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Jd, 4h, Tc, Ac ]
+Lana1226 calls [$0.25]
+0xferr calls [$0.25]
+APRELb calls [$0.25]
+Aksolotli raises [$1.40]
+Teachjack folds
+Lana1226 folds
+0xferr calls [$1.25]
+APRELb calls [$1.25]
+** Dealing flop ** [ Td, 4c, 3c ]
+Aksolotli checks
+0xferr bets [$5]
+APRELb calls [$5]
+Aksolotli folds
+** Dealing turn ** [ 2s ]
+0xferr bets [$15]
+APRELb calls [$14.98]
+** Dealing river ** [ 9c ]
+** Summary **
+0xferr shows [ Jd, 4h, Tc, Ac ]
+APRELb shows [ 5d, 5c, Kd, 6s ]
+0xferr collected [ $42.71 ]
+
+***** 888poker Hand History for Game 576631401 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:33:26
+Table Cheonan 6 Max (Real Money)
+Seat 7 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $42.13 )
+Seat 2: 0xferr ( $52.16 )
+Seat 4: APRELb ( $5 )
+Seat 7: Aksolotli ( $25 )
+Seat 9: Teachjack ( $5.69 )
+Teachjack posts small blind [$0.10]
+Lana1226 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Qd, 7c, 9h, 4s ]
+0xferr folds
+APRELb raises [$0.50]
+Aksolotli raises [$1.85]
+Teachjack folds
+Lana1226 folds
+APRELb calls [$1.35]
+** Dealing flop ** [ 8h, 7d, 9d ]
+APRELb checks
+Aksolotli bets [$4.05]
+APRELb folds
+** Summary **
+Aksolotli did not show his hand
+Aksolotli collected [ $3.85 ]
+
+***** 888poker Hand History for Game 576631427 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:34:03
+Table Cheonan 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $41.88 )
+Seat 2: 0xferr ( $52.16 )
+Seat 4: APRELb ( $5 )
+Seat 7: Aksolotli ( $27 )
+Seat 9: Teachjack ( $5.59 )
+Lana1226 posts small blind [$0.10]
+0xferr posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 6d, Ts, 7d, Th ]
+APRELb raises [$0.50]
+Aksolotli folds
+Teachjack folds
+Lana1226 calls [$0.40]
+0xferr calls [$0.25]
+** Dealing flop ** [ Qs, 5h, Qd ]
+Lana1226 checks
+0xferr checks
+APRELb bets [$0.50]
+Lana1226 raises [$1.50]
+0xferr folds
+APRELb calls [$1]
+** Dealing turn ** [ 5s ]
+Lana1226 bets [$2.25]
+APRELb raises [$3]
+Lana1226 calls [$0.75]
+** Dealing river ** [ 3c ]
+** Summary **
+Lana1226 shows [ Qh, Kc, Tc, Jc ]
+APRELb shows [ Qc, 3h, 6c, Ah ]
+APRELb collected [ $9.97 ]
+
+***** 888poker Hand History for Game 576631475 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:35:16
+Table Cheonan 6 Max (Real Money)
+Seat 1 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $36.88 )
+Seat 2: 0xferr ( $51.66 )
+Seat 4: APRELb ( $9.97 )
+Seat 7: Aksolotli ( $27 )
+Seat 9: Teachjack ( $5.59 )
+0xferr posts small blind [$0.10]
+APRELb posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Ks, 8h, 6d, 8d ]
+Aksolotli raises [$0.62]
+Teachjack calls [$0.62]
+Lana1226 folds
+0xferr calls [$0.52]
+APRELb calls [$0.37]
+** Dealing flop ** [ Qd, 9d, 7c ]
+0xferr checks
+APRELb bets [$1.24]
+Aksolotli calls [$1.24]
+Teachjack calls [$1.24]
+0xferr calls [$1.24]
+** Dealing turn ** [ Kh ]
+0xferr checks
+APRELb checks
+Aksolotli bets [$3.72]
+Teachjack calls [$3.72]
+0xferr folds
+APRELb folds
+** Dealing river ** [ 2s ]
+Aksolotli bets [$7.44]
+Teachjack calls [$0.01]
+** Summary **
+Aksolotli shows [ Ts, Qs, Td, 2d ]
+Teachjack shows [ 9c, 5h, 5d, Ad ]
+Aksolotli collected [ $14.15 ]
+
+***** 888poker Hand History for Game 576631525 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:36:35
+Table Cheonan 6 Max (Real Money)
+Seat 2 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $36.88 )
+Seat 2: 0xferr ( $49.80 )
+Seat 4: APRELb ( $8.11 )
+Seat 7: Aksolotli ( $35.56 )
+Seat 9: Teachjack ( $15 )
+APRELb posts small blind [$0.10]
+Aksolotli posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Js, 2c, 3s, 9d ]
+Teachjack calls [$0.25]
+Lana1226 folds
+0xferr folds
+APRELb calls [$0.15]
+Aksolotli raises [$0.75]
+Teachjack raises [$3]
+APRELb folds
+Aksolotli calls [$2.25]
+** Dealing flop ** [ 6d, 5s, 9h ]
+Aksolotli checks
+Teachjack checks
+** Dealing turn ** [ Ac ]
+Aksolotli checks
+Teachjack checks
+** Dealing river ** [ Ah ]
+Aksolotli checks
+Teachjack checks
+** Summary **
+Aksolotli shows [ Ks, 7h, Jc, 6s ]
+Teachjack shows [ Th, Kh, Ts, Kc ]
+Teachjack collected [ $6.41 ]
+
+***** 888poker Hand History for Game 576631562 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:37:27
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $36.88 )
+Seat 2: 0xferr ( $49.80 )
+Seat 4: APRELb ( $7.86 )
+Seat 7: Aksolotli ( $32.31 )
+Seat 9: Teachjack ( $18.16 )
+Aksolotli posts small blind [$0.10]
+Teachjack posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 8d, Jc, 5d, 4s ]
+Lana1226 calls [$0.25]
+0xferr folds
+APRELb calls [$0.25]
+Aksolotli folds
+Teachjack checks
+** Dealing flop ** [ 9s, Ac, Tc ]
+Teachjack checks
+Lana1226 bets [$0.85]
+APRELb folds
+Teachjack folds
+** Summary **
+Lana1226 collected [ $0.81 ]
+
+***** 888poker Hand History for Game 576631584 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:38:01
+Table Cheonan 6 Max (Real Money)
+Seat 7 is the button
+Total number of players : 6
+Seat 1: Lana1226 ( $37.44 )
+Seat 2: 0xferr ( $49.80 )
+Seat 4: APRELb ( $7.61 )
+Seat 6: taxi618 ( $15 )
+Seat 7: Aksolotli ( $32.21 )
+Seat 9: Teachjack ( $17.91 )
+Teachjack posts small blind [$0.10]
+Lana1226 posts big blind [$0.25]
+taxi618 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 5s, 6s, 7d, Qh ]
+0xferr folds
+APRELb calls [$0.25]
+taxi618 checks
+Aksolotli raises [$1.35]
+Teachjack calls [$1.25]
+Lana1226 calls [$1.10]
+APRELb calls [$1.10]
+taxi618 calls [$1.10]
+** Dealing flop ** [ Jc, 8d, 6d ]
+Teachjack checks
+Lana1226 checks
+APRELb checks
+taxi618 bets [$1]
+Aksolotli calls [$1]
+Teachjack calls [$1]
+Lana1226 calls [$1]
+APRELb calls [$1]
+** Dealing turn ** [ 8c ]
+Teachjack checks
+Lana1226 checks
+APRELb checks
+taxi618 bets [$3.87]
+Aksolotli folds
+Teachjack folds
+Lana1226 folds
+APRELb folds
+** Summary **
+taxi618 did not show his hand
+taxi618 collected [ $11.10 ]
+
+***** 888poker Hand History for Game 576631670 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:40:09
+Table Cheonan 6 Max (Real Money)
+Seat 1 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $35.09 )
+Seat 2: 0xferr ( $49.80 )
+Seat 4: APRELb ( $5.26 )
+Seat 6: taxi618 ( $23.75 )
+Seat 7: Aksolotli ( $29.86 )
+0xferr posts small blind [$0.10]
+APRELb posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 5s, Ac, 3s, 2c ]
+taxi618 folds
+Aksolotli raises [$0.85]
+Lana1226 calls [$0.85]
+0xferr calls [$0.75]
+APRELb calls [$0.60]
+** Dealing flop ** [ 7h, Td, 8h ]
+0xferr checks
+APRELb bets [$3.40]
+Aksolotli folds
+Lana1226 folds
+0xferr folds
+** Summary **
+APRELb did not show his hand
+APRELb collected [ $3.23 ]
+
+***** 888poker Hand History for Game 576631717 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:41:21
+Table Cheonan 6 Max (Real Money)
+Seat 2 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $34.24 )
+Seat 2: 0xferr ( $48.95 )
+Seat 4: APRELb ( $7.64 )
+Seat 6: taxi618 ( $23.75 )
+Seat 7: Aksolotli ( $29.01 )
+APRELb posts small blind [$0.10]
+taxi618 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 2s, Jc, 3s, 2c ]
+Aksolotli raises [$0.85]
+Lana1226 folds
+0xferr folds
+APRELb folds
+taxi618 calls [$0.60]
+** Dealing flop ** [ Qd, 9c, Kc ]
+taxi618 checks
+Aksolotli checks
+** Dealing turn ** [ Qs ]
+taxi618 bets [$1.80]
+Aksolotli folds
+** Summary **
+taxi618 did not show his hand
+taxi618 collected [ $1.70 ]
+
+***** 888poker Hand History for Game 576631745 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:42:13
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $34.24 )
+Seat 2: 0xferr ( $48.95 )
+Seat 4: APRELb ( $7.54 )
+Seat 6: taxi618 ( $24.60 )
+Seat 7: Aksolotli ( $28.16 )
+taxi618 posts small blind [$0.10]
+Aksolotli posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 6c, 8h, 4s, Ts ]
+Lana1226 folds
+0xferr folds
+APRELb calls [$0.25]
+taxi618 calls [$0.15]
+Aksolotli raises [$0.75]
+APRELb calls [$0.75]
+taxi618 calls [$0.75]
+** Dealing flop ** [ 6d, Qs, Th ]
+taxi618 checks
+Aksolotli bets [$1.50]
+APRELb calls [$1.50]
+taxi618 calls [$1.50]
+** Dealing turn ** [ 9d ]
+taxi618 checks
+Aksolotli bets [$4.95]
+APRELb calls [$4.95]
+taxi618 folds
+** Dealing river ** [ 2h ]
+Aksolotli bets [$17.40]
+APRELb calls [$0.09]
+** Summary **
+APRELb shows [ 2c, Qd, 8d, Kd ]
+Aksolotli shows [ Ad, 5d, 5h, Jc ]
+APRELb collected [ $16.70 ]
+
+***** 888poker Hand History for Game 576631797 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 00:43:41
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 5
+Seat 1: Lana1226 ( $34.24 )
+Seat 2: 0xferr ( $48.95 )
+Seat 4: APRELb ( $16.70 )
+Seat 6: taxi618 ( $22.10 )
+Seat 7: Aksolotli ( $20.62 )
+Aksolotli posts small blind [$0.10]
+Lana1226 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Qd, Js, 2s, 6d ]
+0xferr folds
+APRELb folds
+taxi618 calls [$0.25]
+Aksolotli raises [$0.90]
+Lana1226 folds
+taxi618 calls [$0.75]
+** Dealing flop ** [ 2c, Ks, 4s ]
+Aksolotli checks
+taxi618 bets [$0.50]
+Aksolotli calls [$0.50]
+** Dealing turn ** [ 6s ]
+Aksolotli checks
+taxi618 bets [$1.62]
+Aksolotli calls [$1.62]
+** Dealing river ** [ Qs ]
+Aksolotli checks
+taxi618 bets [$3.24]
+Aksolotli folds
+** Summary **
+taxi618 did not show his hand
+taxi618 collected [ $6.13 ]
+
+***** 888poker Hand History for Game 576633469 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:23:27
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 2
+Seat 4: Spirousss88 ( $25 )
+Seat 6: 0xferr ( $25 )
+0xferr posts small blind [$0.10]
+Spirousss88 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Ts, 6d, 2d, 3d ]
+0xferr folds
+** Summary **
+Spirousss88 did not show his hand
+Spirousss88 collected [ $0.20 ]
+
+***** 888poker Hand History for Game 576633478 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:23:34
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 2
+Seat 4: Spirousss88 ( $25.10 )
+Seat 6: 0xferr ( $24.90 )
+Spirousss88 posts small blind [$0.10]
+0xferr posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 6h, 7c, Td, 3d ]
+Spirousss88 calls [$0.15]
+0xferr checks
+** Dealing flop ** [ 8c, Kc, 9d ]
+0xferr checks
+Spirousss88 bets [$0.25]
+0xferr calls [$0.25]
+** Dealing turn ** [ 8h ]
+0xferr checks
+Spirousss88 bets [$0.50]
+0xferr calls [$0.50]
+** Dealing river ** [ Kh ]
+0xferr checks
+Spirousss88 bets [$1]
+0xferr folds
+** Summary **
+Spirousss88 did not show his hand
+Spirousss88 collected [ $1.89 ]
+
+***** 888poker Hand History for Game 576633500 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:24:20
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 2
+Seat 4: Spirousss88 ( $25.99 )
+Seat 6: 0xferr ( $23.90 )
+0xferr posts small blind [$0.10]
+Spirousss88 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Js, 2h, 2s, 6h ]
+0xferr calls [$0.15]
+Spirousss88 checks
+** Dealing flop ** [ Qs, 4c, 5s ]
+Spirousss88 bets [$0.25]
+0xferr raises [$0.87]
+Spirousss88 calls [$0.62]
+** Dealing turn ** [ Kd ]
+Spirousss88 bets [$1.97]
+0xferr calls [$1.97]
+** Dealing river ** [ Ah ]
+Spirousss88 checks
+0xferr checks
+** Summary **
+Spirousss88 shows [ 7s, 5h, 6s, Kh ]
+0xferr mucks [ Js, 2h, 2s, 6h ]
+Spirousss88 collected [ $5.84 ]
+
+***** 888poker Hand History for Game 576633547 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:25:20
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 2
+Seat 4: Spirousss88 ( $28.74 )
+Seat 6: 0xferr ( $20.81 )
+Spirousss88 posts small blind [$0.10]
+0xferr posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 3c, As, 6h, Th ]
+Spirousss88 calls [$0.15]
+0xferr checks
+** Dealing flop ** [ Qd, Qs, Tc ]
+0xferr bets [$0.25]
+Spirousss88 folds
+** Summary **
+0xferr did not show his hand
+0xferr collected [ $0.47 ]
+
+***** 888poker Hand History for Game 576633571 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:25:48
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 2
+Seat 4: Spirousss88 ( $28.49 )
+Seat 6: 0xferr ( $21.03 )
+0xferr posts small blind [$0.10]
+Spirousss88 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 5s, 4d, 3h, 2d ]
+0xferr calls [$0.15]
+Spirousss88 checks
+** Dealing flop ** [ Ad, 6d, 5d ]
+Spirousss88 checks
+0xferr bets [$0.25]
+Spirousss88 folds
+** Summary **
+0xferr collected [ $0.47 ]
+
+***** 888poker Hand History for Game 576633588 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:26:14
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 3
+Seat 4: Spirousss88 ( $28.24 )
+Seat 6: 0xferr ( $21.25 )
+Seat 7: Tommcc1961 ( $5 )
+0xferr posts small blind [$0.10]
+Tommcc1961 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Ks, 7d, 8c, 5s ]
+Spirousss88 calls [$0.25]
+0xferr calls [$0.15]
+Tommcc1961 checks
+** Dealing flop ** [ 4h, Ad, Qc ]
+0xferr checks
+Tommcc1961 checks
+Spirousss88 checks
+** Dealing turn ** [ 5c ]
+0xferr checks
+Tommcc1961 bets [$0.25]
+Spirousss88 calls [$0.25]
+0xferr calls [$0.25]
+** Dealing river ** [ 7h ]
+0xferr checks
+Tommcc1961 bets [$0.49]
+Spirousss88 folds
+0xferr calls [$0.49]
+** Summary **
+Tommcc1961 shows [ 4d, 6s, 2c, 3h ]
+0xferr mucks [ Ks, 7d, 8c, 5s ]
+Tommcc1961 collected [ $2.36 ]
+
+***** 888poker Hand History for Game 576633629 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:27:11
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 3
+Seat 4: Spirousss88 ( $27.74 )
+Seat 6: 0xferr ( $20.26 )
+Seat 7: Tommcc1961 ( $6.37 )
+Tommcc1961 posts small blind [$0.10]
+Spirousss88 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 3d, Ad, Qs, 9s ]
+0xferr raises [$0.85]
+Tommcc1961 folds
+Spirousss88 calls [$0.60]
+** Dealing flop ** [ 4h, Ts, 7d ]
+Spirousss88 checks
+0xferr checks
+** Dealing turn ** [ Qd ]
+Spirousss88 bets [$1.18]
+0xferr calls [$1.18]
+** Dealing river ** [ 9c ]
+Spirousss88 checks
+0xferr bets [$2.78]
+Spirousss88 calls [$2.78]
+** Summary **
+0xferr shows [ 3d, Ad, Qs, 9s ]
+Spirousss88 mucks [ Ks, 4s, Th, 5h ]
+0xferr collected [ $9.23 ]
+
+***** 888poker Hand History for Game 576633669 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:28:09
+Table Cheonan 6 Max (Real Money)
+Seat 7 is the button
+Total number of players : 3
+Seat 4: Spirousss88 ( $22.93 )
+Seat 6: 0xferr ( $24.68 )
+Seat 7: Tommcc1961 ( $6.27 )
+Spirousss88 posts small blind [$0.10]
+0xferr posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Ac, 5h, 9d, 5c ]
+Tommcc1961 calls [$0.25]
+Spirousss88 calls [$0.15]
+0xferr checks
+** Dealing flop ** [ 7c, Jc, 5d ]
+Spirousss88 checks
+0xferr bets [$0.37]
+Tommcc1961 calls [$0.37]
+Spirousss88 folds
+** Dealing turn ** [ Jd ]
+0xferr bets [$0.99]
+Tommcc1961 calls [$0.99]
+** Dealing river ** [ Kc ]
+0xferr bets [$2.32]
+Tommcc1961 folds
+** Summary **
+0xferr did not show his hand
+0xferr collected [ $3.30 ]
+
+***** 888poker Hand History for Game 576633703 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:29:12
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 3
+Seat 4: Spirousss88 ( $22.68 )
+Seat 6: 0xferr ( $26.37 )
+Seat 7: Tommcc1961 ( $5 )
+0xferr posts small blind [$0.10]
+Tommcc1961 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 4c, 3s, Ad, 6h ]
+Spirousss88 calls [$0.25]
+0xferr calls [$0.15]
+Tommcc1961 checks
+** Dealing flop ** [ 6s, Kc, 9h ]
+0xferr checks
+Tommcc1961 bets [$0.25]
+Spirousss88 folds
+0xferr folds
+** Summary **
+Tommcc1961 did not show his hand
+Tommcc1961 collected [ $0.71 ]
+
+***** 888poker Hand History for Game 576633722 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:29:45
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 3
+Seat 4: Spirousss88 ( $22.43 )
+Seat 6: 0xferr ( $26.12 )
+Seat 7: Tommcc1961 ( $5.46 )
+Tommcc1961 posts small blind [$0.10]
+Spirousss88 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Qd, As, 7h, Qh ]
+0xferr raises [$0.85]
+Tommcc1961 folds
+Spirousss88 calls [$0.60]
+** Dealing flop ** [ 4c, Ac, Kh ]
+Spirousss88 checks
+0xferr bets [$0.90]
+Spirousss88 calls [$0.90]
+** Dealing turn ** [ Js ]
+Spirousss88 checks
+0xferr bets [$2.70]
+Spirousss88 folds
+** Summary **
+0xferr collected [ $3.42 ]
+
+***** 888poker Hand History for Game 576633742 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:30:18
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 3
+Seat 4: Spirousss88 ( $20.68 )
+Seat 6: 0xferr ( $27.79 )
+Seat 9: elhakim1991 ( $9.45 )
+0xferr posts small blind [$0.10]
+elhakim1991 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Qs, 8c, 5h, 8d ]
+Spirousss88 raises [$0.75]
+0xferr folds
+elhakim1991 calls [$0.50]
+** Dealing flop ** [ 8s, 2h, 4c ]
+elhakim1991 checks
+Spirousss88 bets [$1.05]
+elhakim1991 folds
+** Summary **
+Spirousss88 collected [ $1.51 ]
+
+***** 888poker Hand History for Game 576633756 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:30:42
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 3
+Seat 4: Spirousss88 ( $21.44 )
+Seat 6: 0xferr ( $27.69 )
+Seat 9: elhakim1991 ( $8.70 )
+elhakim1991 posts small blind [$0.10]
+Spirousss88 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 6d, 3c, 2h, 5s ]
+0xferr folds
+elhakim1991 calls [$0.15]
+Spirousss88 checks
+** Dealing flop ** [ Qh, Kh, 5d ]
+elhakim1991 checks
+Spirousss88 bets [$0.25]
+elhakim1991 calls [$0.25]
+** Dealing turn ** [ Jd ]
+elhakim1991 checks
+Spirousss88 bets [$0.75]
+elhakim1991 folds
+** Summary **
+Spirousss88 collected [ $0.94 ]
+
+***** 888poker Hand History for Game 576633772 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:31:06
+Table Cheonan 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 4
+Seat 4: Spirousss88 ( $21.88 )
+Seat 6: 0xferr ( $27.69 )
+Seat 7: Tommcc1961 ( $5.36 )
+Seat 9: elhakim1991 ( $8.20 )
+Spirousss88 posts small blind [$0.10]
+0xferr posts big blind [$0.25]
+Tommcc1961 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 2s, 6h, 2c, 2d ]
+Tommcc1961 checks
+elhakim1991 calls [$0.25]
+Spirousss88 calls [$0.15]
+0xferr checks
+** Dealing flop ** [ 7s, Td, Js ]
+Spirousss88 checks
+0xferr checks
+Tommcc1961 bets [$0.50]
+elhakim1991 folds
+Spirousss88 calls [$0.50]
+0xferr folds
+** Dealing turn ** [ Ac ]
+Spirousss88 checks
+Tommcc1961 bets [$1]
+Spirousss88 folds
+** Summary **
+Tommcc1961 collected [ $1.90 ]
+
+***** 888poker Hand History for Game 576633821 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:32:24
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 5
+Seat 1: SabinSala321 ( $25 )
+Seat 4: Spirousss88 ( $21.13 )
+Seat 6: 0xferr ( $27.44 )
+Seat 7: Tommcc1961 ( $6.51 )
+Seat 9: elhakim1991 ( $7.95 )
+0xferr posts small blind [$0.10]
+Tommcc1961 posts big blind [$0.25]
+SabinSala321 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Td, 3d, Kd, Jc ]
+elhakim1991 folds
+SabinSala321 checks
+Spirousss88 folds
+0xferr calls [$0.15]
+Tommcc1961 checks
+** Dealing flop ** [ 2h, 4d, 4s ]
+0xferr checks
+Tommcc1961 checks
+SabinSala321 checks
+** Dealing turn ** [ Qd ]
+0xferr checks
+Tommcc1961 checks
+SabinSala321 bets [$0.75]
+0xferr folds
+Tommcc1961 folds
+** Summary **
+SabinSala321 did not show his hand
+SabinSala321 collected [ $0.71 ]
+
+***** 888poker Hand History for Game 576633848 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:33:09
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 5
+Seat 1: SabinSala321 ( $25.46 )
+Seat 4: Spirousss88 ( $21.13 )
+Seat 6: 0xferr ( $27.19 )
+Seat 7: Tommcc1961 ( $6.26 )
+Seat 9: elhakim1991 ( $7.95 )
+Tommcc1961 posts small blind [$0.10]
+elhakim1991 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 6s, Ah, 9c, Td ]
+SabinSala321 folds
+Spirousss88 folds
+0xferr folds
+Tommcc1961 calls [$0.15]
+elhakim1991 checks
+** Dealing flop ** [ As, 6d, 5c ]
+Tommcc1961 bets [$0.25]
+elhakim1991 folds
+** Summary **
+Tommcc1961 did not show his hand
+Tommcc1961 collected [ $0.47 ]
+
+***** 888poker Hand History for Game 576633870 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:33:32
+Table Cheonan 6 Max (Real Money)
+Seat 7 is the button
+Total number of players : 5
+Seat 1: SabinSala321 ( $25.46 )
+Seat 4: Spirousss88 ( $21.13 )
+Seat 6: 0xferr ( $27.19 )
+Seat 7: Tommcc1961 ( $6.48 )
+Seat 9: elhakim1991 ( $7.70 )
+elhakim1991 posts small blind [$0.10]
+SabinSala321 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Th, Ks, 3d, Ts ]
+Spirousss88 folds
+0xferr folds
+Tommcc1961 folds
+elhakim1991 folds
+** Summary **
+SabinSala321 did not show his hand
+SabinSala321 collected [ $0.20 ]
+
+***** 888poker Hand History for Game 576633879 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:33:47
+Table Cheonan 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 5
+Seat 1: SabinSala321 ( $25.56 )
+Seat 4: Spirousss88 ( $21.13 )
+Seat 6: 0xferr ( $27.19 )
+Seat 7: Tommcc1961 ( $6.48 )
+Seat 9: elhakim1991 ( $7.60 )
+SabinSala321 posts small blind [$0.10]
+Spirousss88 folds
+0xferr posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 4s, 8s, Kc, Jh ]
+Tommcc1961 calls [$0.25]
+elhakim1991 folds
+SabinSala321 folds
+0xferr checks
+** Dealing flop ** [ 8h, Qd, Ad ]
+0xferr checks
+Tommcc1961 bets [$0.25]
+0xferr calls [$0.25]
+** Dealing turn ** [ 8c ]
+0xferr checks
+Tommcc1961 checks
+** Dealing river ** [ 3d ]
+0xferr checks
+Tommcc1961 checks
+** Summary **
+0xferr shows [ 4s, 8s, Kc, Jh ]
+Tommcc1961 mucks [ 7d, Ks, 9c, Ac ]
+0xferr collected [ $1.04 ]
+
+***** 888poker Hand History for Game 576633921 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:34:46
+Table Cheonan 6 Max (Real Money)
+Seat 1 is the button
+Total number of players : 4
+Seat 1: SabinSala321 ( $25.46 )
+Seat 6: 0xferr ( $27.73 )
+Seat 7: Tommcc1961 ( $5.98 )
+Seat 9: elhakim1991 ( $7.60 )
+0xferr posts small blind [$0.10]
+Tommcc1961 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 4s, 8d, Td, 8s ]
+elhakim1991 raises [$0.85]
+SabinSala321 folds
+0xferr folds
+Tommcc1961 folds
+** Summary **
+elhakim1991 collected [ $0.60 ]
+
+***** 888poker Hand History for Game 576633931 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:35:06
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 6
+Seat 1: SabinSala321 ( $25.46 )
+Seat 2: Benman75 ( $5 )
+Seat 4: Spirousss88 ( $21.13 )
+Seat 6: 0xferr ( $27.63 )
+Seat 7: Tommcc1961 ( $5.73 )
+Seat 9: elhakim1991 ( $7.95 )
+Tommcc1961 posts small blind [$0.10]
+elhakim1991 posts big blind [$0.25]
+Benman75 posts big blind [$0.25]
+Spirousss88 posts dead blind [$0.10 + $0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 4h, 6h, 6s, Ah ]
+SabinSala321 folds
+Benman75 raises [$0.25]
+Spirousss88 folds
+0xferr calls [$0.50]
+Tommcc1961 folds
+elhakim1991 calls [$0.25]
+** Dealing flop ** [ 5d, 7h, 4s ]
+elhakim1991 checks
+Benman75 bets [$0.50]
+0xferr raises [$1.75]
+elhakim1991 folds
+Benman75 raises [$2.50]
+0xferr raises [$9.20]
+Benman75 calls [$1.50]
+** Dealing turn ** [ 7c ]
+** Dealing river ** [ Qh ]
+** Summary **
+Benman75 shows [ Ts, As, Qs, 2s ]
+0xferr shows [ 4h, 6h, 6s, Ah ]
+Benman75 collected [ $10.35 ]
+
+***** 888poker Hand History for Game 576633979 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:36:23
+Table Cheonan 6 Max (Real Money)
+Seat 7 is the button
+Total number of players : 6
+Seat 1: SabinSala321 ( $25.46 )
+Seat 2: Benman75 ( $10.35 )
+Seat 4: Spirousss88 ( $20.78 )
+Seat 6: 0xferr ( $22.63 )
+Seat 7: Tommcc1961 ( $5.63 )
+Seat 9: elhakim1991 ( $7.45 )
+elhakim1991 posts small blind [$0.10]
+SabinSala321 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Kh, 2c, Jc, 3c ]
+Benman75 calls [$0.25]
+Spirousss88 folds
+0xferr folds
+Tommcc1961 calls [$0.25]
+elhakim1991 calls [$0.15]
+SabinSala321 checks
+** Dealing flop ** [ 5d, 5s, Ad ]
+elhakim1991 checks
+SabinSala321 checks
+Benman75 bets [$0.50]
+Tommcc1961 calls [$0.50]
+elhakim1991 folds
+SabinSala321 folds
+** Dealing turn ** [ 9s ]
+Benman75 bets [$0.50]
+Tommcc1961 calls [$0.50]
+** Dealing river ** [ Ks ]
+Benman75 bets [$0.25]
+Tommcc1961 calls [$0.25]
+** Summary **
+Benman75 shows [ Kd, 3d, 4d, Qs ]
+Tommcc1961 shows [ Tc, 5h, 8h, Jd ]
+Tommcc1961 collected [ $3.32 ]
+
+***** 888poker Hand History for Game 576634014 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:37:23
+Table Cheonan 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 6
+Seat 1: SabinSala321 ( $25.21 )
+Seat 2: Benman75 ( $8.85 )
+Seat 4: Spirousss88 ( $20.78 )
+Seat 6: 0xferr ( $22.63 )
+Seat 7: Tommcc1961 ( $7.45 )
+Seat 9: elhakim1991 ( $7.20 )
+SabinSala321 posts small blind [$0.10]
+Benman75 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Js, Tc, 9s, Kh ]
+Spirousss88 folds
+0xferr raises [$0.85]
+Tommcc1961 folds
+elhakim1991 folds
+SabinSala321 folds
+Benman75 folds
+** Summary **
+0xferr did not show his hand
+0xferr collected [ $0.60 ]
+
+***** 888poker Hand History for Game 576634030 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:37:47
+Table Cheonan 6 Max (Real Money)
+Seat 1 is the button
+Total number of players : 6
+Seat 1: SabinSala321 ( $25.11 )
+Seat 2: Benman75 ( $8.60 )
+Seat 4: Spirousss88 ( $20.78 )
+Seat 6: 0xferr ( $22.98 )
+Seat 7: Tommcc1961 ( $7.45 )
+Seat 9: elhakim1991 ( $7.20 )
+Benman75 posts small blind [$0.10]
+Spirousss88 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 4h, Js, Ad, 2c ]
+0xferr folds
+Tommcc1961 folds
+elhakim1991 calls [$0.25]
+SabinSala321 folds
+Benman75 calls [$0.15]
+Spirousss88 checks
+** Dealing flop ** [ Qd, Ah, 4s ]
+Benman75 bets [$0.25]
+Spirousss88 calls [$0.25]
+elhakim1991 folds
+** Dealing turn ** [ Td ]
+Benman75 bets [$0.25]
+Spirousss88 calls [$0.25]
+** Dealing river ** [ 2h ]
+Benman75 bets [$0.50]
+Spirousss88 calls [$0.50]
+** Summary **
+Benman75 shows [ 6c, Qc, Jc, Jd ]
+Spirousss88 shows [ Qs, 8s, 4d, 2s ]
+Spirousss88 collected [ $2.60 ]
+
+***** 888poker Hand History for Game 576634061 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:38:33
+Table Cheonan 6 Max (Real Money)
+Seat 2 is the button
+Total number of players : 6
+Seat 1: SabinSala321 ( $25.11 )
+Seat 2: Benman75 ( $7.35 )
+Seat 4: Spirousss88 ( $22.13 )
+Seat 6: 0xferr ( $22.98 )
+Seat 7: Tommcc1961 ( $7.45 )
+Seat 9: elhakim1991 ( $6.95 )
+Spirousss88 posts small blind [$0.10]
+0xferr posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 4d, 8d, 3s, 7h ]
+Tommcc1961 folds
+elhakim1991 calls [$0.25]
+SabinSala321 folds
+Benman75 calls [$0.25]
+Spirousss88 calls [$0.15]
+0xferr checks
+** Dealing flop ** [ 2h, Th, Ah ]
+Spirousss88 checks
+0xferr checks
+elhakim1991 checks
+Benman75 checks
+** Dealing turn ** [ Ks ]
+Spirousss88 checks
+0xferr checks
+elhakim1991 checks
+Benman75 bets [$1]
+Spirousss88 calls [$1]
+0xferr folds
+elhakim1991 folds
+** Dealing river ** [ 6d ]
+Spirousss88 checks
+Benman75 checks
+** Summary **
+Spirousss88 shows [ Kc, Ts, 8h, Ac ]
+Benman75 shows [ Qh, 3c, Js, 3d ]
+Benman75 collected [ $2.83 ]
+
+***** 888poker Hand History for Game 576634101 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:39:49
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 6
+Seat 1: SabinSala321 ( $25.11 )
+Seat 2: Benman75 ( $8.93 )
+Seat 4: Spirousss88 ( $20.88 )
+Seat 6: 0xferr ( $22.73 )
+Seat 7: Tommcc1961 ( $7.45 )
+Seat 9: elhakim1991 ( $6.70 )
+0xferr posts small blind [$0.10]
+Tommcc1961 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Jh, Qs, 7s, Ac ]
+elhakim1991 calls [$0.25]
+SabinSala321 calls [$0.25]
+Benman75 calls [$0.25]
+Spirousss88 calls [$0.25]
+0xferr calls [$0.15]
+Tommcc1961 checks
+** Dealing flop ** [ 8h, 8s, Td ]
+0xferr checks
+Tommcc1961 checks
+elhakim1991 checks
+SabinSala321 checks
+Benman75 checks
+Spirousss88 checks
+** Dealing turn ** [ 4d ]
+0xferr checks
+Tommcc1961 bets [$0.50]
+elhakim1991 folds
+SabinSala321 calls [$0.50]
+Benman75 folds
+Spirousss88 folds
+0xferr folds
+** Dealing river ** [ Kc ]
+Tommcc1961 checks
+SabinSala321 checks
+** Summary **
+Tommcc1961 shows [ 6d, Ts, 5d, Kh ]
+SabinSala321 mucks [ Ad, 9d, Qc, 9s ]
+Tommcc1961 collected [ $2.37 ]
+
+***** 888poker Hand History for Game 576634163 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:41:11
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 6
+Seat 1: SabinSala321 ( $24.36 )
+Seat 2: Benman75 ( $8.68 )
+Seat 4: Spirousss88 ( $20.63 )
+Seat 6: 0xferr ( $22.48 )
+Seat 7: Tommcc1961 ( $9.07 )
+Seat 9: elhakim1991 ( $6.45 )
+Tommcc1961 posts small blind [$0.10]
+elhakim1991 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Qh, Qs, 9c, As ]
+SabinSala321 raises [$0.85]
+Benman75 folds
+Spirousss88 calls [$0.85]
+0xferr raises [$3.75]
+Tommcc1961 folds
+elhakim1991 folds
+SabinSala321 calls [$2.90]
+Spirousss88 folds
+** Dealing flop ** [ 9d, Tc, 4s ]
+SabinSala321 bets [$8.70]
+0xferr raises [$18.73]
+SabinSala321 calls [$10.03]
+** Dealing turn ** [ Qc ]
+** Dealing river ** [ Js ]
+** Summary **
+SabinSala321 shows [ Th, 7c, 8s, 9h ]
+0xferr shows [ Qh, Qs, 9c, As ]
+SabinSala321 collected [ $43.62 ]
+
+***** 888poker Hand History for Game 576634218 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:42:27
+Table Cheonan 6 Max (Real Money)
+Seat 7 is the button
+Total number of players : 6
+Seat 1: SabinSala321 ( $45.50 )
+Seat 2: Benman75 ( $8.68 )
+Seat 4: Spirousss88 ( $19.78 )
+Seat 6: 0xferr ( $25 )
+Seat 7: Tommcc1961 ( $8.97 )
+Seat 9: elhakim1991 ( $6.20 )
+elhakim1991 posts small blind [$0.10]
+SabinSala321 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 7h, 6c, 6h, Jc ]
+Benman75 calls [$0.25]
+Spirousss88 folds
+0xferr raises [$1.10]
+Tommcc1961 folds
+elhakim1991 calls [$1]
+SabinSala321 folds
+Benman75 folds
+** Dealing flop ** [ 8d, 6s, 8s ]
+elhakim1991 checks
+0xferr checks
+** Dealing turn ** [ 4s ]
+elhakim1991 checks
+0xferr checks
+** Dealing river ** [ Ac ]
+elhakim1991 bets [$1.78]
+0xferr raises [$6.23]
+elhakim1991 folds
+** Summary **
+0xferr did not show his hand
+0xferr collected [ $5.95 ]
+
+***** 888poker Hand History for Game 576634248 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:43:28
+Table Cheonan 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 6
+Seat 1: SabinSala321 ( $45.25 )
+Seat 2: Benman75 ( $8.43 )
+Seat 4: Spirousss88 ( $19.78 )
+Seat 6: 0xferr ( $28.07 )
+Seat 7: Tommcc1961 ( $8.97 )
+Seat 9: elhakim1991 ( $3.32 )
+SabinSala321 posts small blind [$0.10]
+Benman75 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Ah, 2c, Ac, 7c ]
+Spirousss88 folds
+0xferr raises [$0.85]
+Tommcc1961 calls [$0.85]
+elhakim1991 raises [$3.32]
+SabinSala321 folds
+Benman75 folds
+0xferr raises [$10.31]
+Tommcc1961 folds
+** Dealing flop ** [ 7h, 7d, Ts ]
+** Dealing turn ** [ 6s ]
+** Dealing river ** [ Qc ]
+** Summary **
+0xferr shows [ Ah, 2c, Ac, 7c ]
+elhakim1991 shows [ 4c, Kc, 9d, Kh ]
+0xferr collected [ $7.45 ]
+
+***** 888poker Hand History for Game 576634278 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:44:14
+Table Cheonan 6 Max (Real Money)
+Seat 1 is the button
+Total number of players : 5
+Seat 1: SabinSala321 ( $45.15 )
+Seat 2: Benman75 ( $8.18 )
+Seat 4: Spirousss88 ( $19.78 )
+Seat 6: 0xferr ( $32.20 )
+Seat 7: Tommcc1961 ( $8.12 )
+Benman75 posts small blind [$0.10]
+Spirousss88 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Kd, Ah, 5h, Qh ]
+0xferr raises [$0.85]
+Tommcc1961 calls [$0.85]
+SabinSala321 folds
+Benman75 folds
+Spirousss88 folds
+** Dealing flop ** [ 9c, 7s, 2d ]
+0xferr checks
+Tommcc1961 bets [$0.67]
+0xferr folds
+** Summary **
+Tommcc1961 did not show his hand
+Tommcc1961 collected [ $1.95 ]
+
+***** 888poker Hand History for Game 576634301 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:44:50
+Table Cheonan 6 Max (Real Money)
+Seat 2 is the button
+Total number of players : 5
+Seat 1: SabinSala321 ( $45.15 )
+Seat 2: Benman75 ( $8.08 )
+Seat 4: Spirousss88 ( $19.53 )
+Seat 6: 0xferr ( $31.35 )
+Seat 7: Tommcc1961 ( $9.22 )
+Spirousss88 posts small blind [$0.10]
+0xferr posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Kh, 2c, Ks, 8h ]
+Tommcc1961 calls [$0.25]
+SabinSala321 folds
+Benman75 calls [$0.25]
+Spirousss88 calls [$0.15]
+0xferr checks
+** Dealing flop ** [ As, Td, Qs ]
+Spirousss88 checks
+0xferr bets [$0.67]
+Tommcc1961 calls [$0.67]
+Benman75 folds
+Spirousss88 calls [$0.67]
+** Dealing turn ** [ Qc ]
+Spirousss88 checks
+0xferr checks
+Tommcc1961 bets [$0.74]
+Spirousss88 folds
+0xferr calls [$0.74]
+** Dealing river ** [ 8d ]
+0xferr checks
+Tommcc1961 bets [$1.23]
+0xferr folds
+** Summary **
+Tommcc1961 did not show his hand
+Tommcc1961 collected [ $4.27 ]
+
+***** 888poker Hand History for Game 576634358 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:46:23
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 4
+Seat 2: Benman75 ( $7.83 )
+Seat 4: Spirousss88 ( $18.61 )
+Seat 6: 0xferr ( $29.69 )
+Seat 7: Tommcc1961 ( $11.83 )
+0xferr posts small blind [$0.10]
+Tommcc1961 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 3c, 8s, As, Js ]
+Benman75 calls [$0.25]
+Spirousss88 calls [$0.25]
+0xferr calls [$0.15]
+Tommcc1961 checks
+** Dealing flop ** [ 8d, 8c, 7s ]
+0xferr bets [$1]
+Tommcc1961 folds
+Benman75 folds
+Spirousss88 folds
+** Summary **
+0xferr collected [ $0.95 ]
+
+***** 888poker Hand History for Game 576634382 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:47:01
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 5
+Seat 2: Benman75 ( $7.58 )
+Seat 4: Spirousss88 ( $18.36 )
+Seat 6: 0xferr ( $30.39 )
+Seat 7: Tommcc1961 ( $11.58 )
+Seat 9: Thomthumb23 ( $25 )
+Tommcc1961 posts small blind [$0.10]
+Thomthumb23 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 2h, 6h, 9c, 5d ]
+Benman75 calls [$0.25]
+Spirousss88 folds
+0xferr folds
+Tommcc1961 calls [$0.15]
+Thomthumb23 checks
+** Dealing flop ** [ 5h, 8d, 9h ]
+Tommcc1961 bets [$0.25]
+Thomthumb23 folds
+Benman75 calls [$0.25]
+** Dealing turn ** [ 7c ]
+Tommcc1961 bets [$0.25]
+Benman75 calls [$0.25]
+** Dealing river ** [ 2c ]
+Tommcc1961 bets [$0.25]
+Benman75 folds
+** Summary **
+Tommcc1961 did not show his hand
+Tommcc1961 collected [ $1.66 ]
+
+***** 888poker Hand History for Game 576634423 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:48:01
+Table Cheonan 6 Max (Real Money)
+Seat 7 is the button
+Total number of players : 5
+Seat 2: Benman75 ( $6.83 )
+Seat 4: Spirousss88 ( $18.36 )
+Seat 6: 0xferr ( $30.39 )
+Seat 7: Tommcc1961 ( $12.49 )
+Seat 9: Thomthumb23 ( $24.75 )
+Thomthumb23 posts small blind [$0.10]
+Benman75 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 7s, Td, 8d, 5d ]
+Spirousss88 folds
+0xferr folds
+Tommcc1961 calls [$0.25]
+Thomthumb23 folds
+Benman75 checks
+** Dealing flop ** [ Jd, Kh, 3d ]
+Benman75 checks
+Tommcc1961 bets [$0.25]
+Benman75 calls [$0.25]
+** Dealing turn ** [ 4c ]
+Benman75 checks
+Tommcc1961 checks
+** Dealing river ** [ 8c ]
+Benman75 checks
+Tommcc1961 bets [$0.25]
+Benman75 raises [$0.50]
+Tommcc1961 calls [$0.25]
+** Summary **
+Benman75 shows [ Qh, 6s, 2s, Kc ]
+Tommcc1961 shows [ 8s, 9s, Jc, Qs ]
+Tommcc1961 collected [ $1.99 ]
+
+***** 888poker Hand History for Game 576634458 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:49:04
+Table Cheonan 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 5
+Seat 2: Benman75 ( $5.83 )
+Seat 4: Spirousss88 ( $18.36 )
+Seat 6: 0xferr ( $30.39 )
+Seat 7: Tommcc1961 ( $13.48 )
+Seat 9: Thomthumb23 ( $24.65 )
+Benman75 posts small blind [$0.10]
+Spirousss88 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Tc, 2h, 7d, 4c ]
+0xferr folds
+Tommcc1961 folds
+Thomthumb23 calls [$0.25]
+Benman75 calls [$0.15]
+Spirousss88 checks
+** Dealing flop ** [ 8c, 2s, 4d ]
+Benman75 checks
+Spirousss88 checks
+Thomthumb23 checks
+** Dealing turn ** [ 2c ]
+Benman75 checks
+Spirousss88 checks
+Thomthumb23 checks
+** Dealing river ** [ Kd ]
+Benman75 checks
+Spirousss88 bets [$0.75]
+Thomthumb23 folds
+Benman75 folds
+** Summary **
+Spirousss88 did not show his hand
+Spirousss88 collected [ $0.71 ]
+
+***** 888poker Hand History for Game 576634549 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:51:27
+Table Cheonan 6 Max (Real Money)
+Seat 2 is the button
+Total number of players : 5
+Seat 2: Benman75 ( $5.58 )
+Seat 4: Spirousss88 ( $18.82 )
+Seat 6: 0xferr ( $30.39 )
+Seat 7: Tommcc1961 ( $13.48 )
+Seat 9: Thomthumb23 ( $24.40 )
+Spirousss88 posts small blind [$0.10]
+0xferr posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 3c, 8h, 5d, 3d ]
+Tommcc1961 folds
+Thomthumb23 folds
+Benman75 calls [$0.25]
+Spirousss88 calls [$0.15]
+0xferr checks
+** Dealing flop ** [ 8c, 7c, Qs ]
+Spirousss88 bets [$0.50]
+0xferr folds
+Benman75 folds
+** Summary **
+Spirousss88 did not show his hand
+Spirousss88 collected [ $0.71 ]
+
+***** 888poker Hand History for Game 576634581 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:52:07
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 4
+Seat 2: Benman75 ( $5.33 )
+Seat 4: Spirousss88 ( $19.28 )
+Seat 6: 0xferr ( $30.14 )
+Seat 9: Thomthumb23 ( $24.40 )
+0xferr posts small blind [$0.10]
+Thomthumb23 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Ks, Qh, 2c, 2h ]
+Benman75 calls [$0.25]
+Spirousss88 calls [$0.25]
+0xferr calls [$0.15]
+Thomthumb23 checks
+** Dealing flop ** [ Kc, 9h, 8c ]
+0xferr checks
+Thomthumb23 checks
+Benman75 bets [$0.50]
+Spirousss88 calls [$0.50]
+0xferr calls [$0.50]
+Thomthumb23 calls [$0.50]
+** Dealing turn ** [ Jd ]
+0xferr checks
+Thomthumb23 checks
+Benman75 checks
+Spirousss88 checks
+** Dealing river ** [ 4h ]
+0xferr checks
+Thomthumb23 bets [$1.98]
+Benman75 calls [$1.98]
+Spirousss88 folds
+0xferr folds
+** Summary **
+Thomthumb23 shows [ 6h, 3d, Jc, Qc ]
+Benman75 shows [ 9d, 4s, 3c, Ac ]
+Benman75 collected [ $6.58 ]
+
+***** 888poker Hand History for Game 576634636 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:53:34
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 4
+Seat 2: Benman75 ( $9.18 )
+Seat 4: Spirousss88 ( $18.53 )
+Seat 6: 0xferr ( $29.39 )
+Seat 9: Thomthumb23 ( $21.67 )
+Thomthumb23 posts small blind [$0.10]
+Benman75 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 8s, Ks, 5h, As ]
+Spirousss88 folds
+0xferr calls [$0.25]
+Thomthumb23 calls [$0.15]
+Benman75 checks
+** Dealing flop ** [ 3c, 5c, 3s ]
+Thomthumb23 checks
+Benman75 checks
+0xferr checks
+** Dealing turn ** [ 8h ]
+Thomthumb23 checks
+Benman75 checks
+0xferr bets [$0.37]
+Thomthumb23 folds
+Benman75 raises [$0.74]
+0xferr calls [$0.37]
+** Dealing river ** [ Jc ]
+Benman75 bets [$1]
+0xferr folds
+** Summary **
+Benman75 collected [ $2.11 ]
+
+***** 888poker Hand History for Game 576634712 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:55:45
+Table Cheonan 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 4
+Seat 2: Benman75 ( $10.30 )
+Seat 4: Spirousss88 ( $18.53 )
+Seat 6: 0xferr ( $28.40 )
+Seat 9: Thomthumb23 ( $21.42 )
+Benman75 posts small blind [$0.10]
+Spirousss88 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 4h, 9h, 4d, Jd ]
+0xferr folds
+Thomthumb23 raises [$0.50]
+Benman75 raises [$0.65]
+Spirousss88 calls [$0.50]
+Thomthumb23 calls [$0.25]
+** Dealing flop ** [ 6c, 5d, 8c ]
+Benman75 bets [$0.50]
+Spirousss88 raises [$2]
+Thomthumb23 calls [$2]
+Benman75 calls [$1.50]
+** Dealing turn ** [ 3d ]
+Benman75 checks
+Spirousss88 bets [$8.25]
+Thomthumb23 calls [$8.25]
+Benman75 calls [$7.55]
+** Dealing river ** [ Js ]
+Spirousss88 checks
+Thomthumb23 bets [$10.42]
+Spirousss88 folds
+** Summary **
+Benman75 shows [ Kd, As, Ts, Th ]
+Thomthumb23 shows [ Qh, 2s, Ac, Jc ]
+Thomthumb23 collected [ $29.35 ]
+Thomthumb23 collected [ $1.33 ]
+
+***** 888poker Hand History for Game 576634756 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:57:02
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 4
+Seat 4: Spirousss88 ( $7.53 )
+Seat 6: 0xferr ( $28.40 )
+Seat 7: chikipuki ( $25 )
+Seat 9: Thomthumb23 ( $41.10 )
+0xferr posts small blind [$0.10]
+chikipuki posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 8c, 7c, 2s, 4d ]
+Thomthumb23 folds
+Spirousss88 calls [$0.25]
+0xferr folds
+chikipuki checks
+** Dealing flop ** [ Ad, 7d, 9h ]
+chikipuki checks
+Spirousss88 checks
+** Dealing turn ** [ Td ]
+chikipuki checks
+Spirousss88 bets [$0.50]
+chikipuki calls [$0.50]
+** Dealing river ** [ 5d ]
+chikipuki checks
+Spirousss88 bets [$1.30]
+chikipuki folds
+** Summary **
+Spirousss88 collected [ $1.51 ]
+
+***** 888poker Hand History for Game 576634811 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:58:23
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 4
+Seat 4: Spirousss88 ( $8.29 )
+Seat 6: 0xferr ( $28.30 )
+Seat 7: chikipuki ( $25 )
+Seat 9: Thomthumb23 ( $41.10 )
+chikipuki posts small blind [$0.10]
+Thomthumb23 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 4s, 7s, Jc, 6s ]
+Spirousss88 raises [$0.75]
+0xferr folds
+chikipuki folds
+Thomthumb23 calls [$0.50]
+** Dealing flop ** [ 2c, Ts, 2d ]
+Thomthumb23 checks
+Spirousss88 bets [$0.80]
+Thomthumb23 folds
+** Summary **
+Spirousss88 collected [ $1.51 ]
+
+***** 888poker Hand History for Game 576634826 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:58:51
+Table Cheonan 6 Max (Real Money)
+Seat 7 is the button
+Total number of players : 4
+Seat 4: Spirousss88 ( $9.05 )
+Seat 6: 0xferr ( $28.30 )
+Seat 7: chikipuki ( $25 )
+Seat 9: Thomthumb23 ( $40.35 )
+Thomthumb23 posts small blind [$0.10]
+Spirousss88 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Ac, 7s, 8d, 8h ]
+0xferr folds
+chikipuki raises [$0.85]
+Thomthumb23 calls [$0.75]
+Spirousss88 raises [$3.15]
+chikipuki folds
+Thomthumb23 folds
+** Summary **
+Spirousss88 collected [ $2.55 ]
+
+***** 888poker Hand History for Game 576634840 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 01:59:15
+Table Cheonan 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 4
+Seat 4: Spirousss88 ( $10.75 )
+Seat 6: 0xferr ( $28.30 )
+Seat 7: chikipuki ( $25 )
+Seat 9: Thomthumb23 ( $39.50 )
+Spirousss88 posts small blind [$0.10]
+0xferr posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 9s, Kc, 8d, 7h ]
+chikipuki raises [$0.85]
+Thomthumb23 calls [$0.85]
+Spirousss88 folds
+0xferr folds
+** Dealing flop ** [ Jd, 3c, 4s ]
+chikipuki checks
+Thomthumb23 checks
+** Dealing turn ** [ 5s ]
+chikipuki checks
+Thomthumb23 bets [$0.67]
+chikipuki calls [$0.67]
+** Dealing river ** [ 2h ]
+chikipuki checks
+Thomthumb23 bets [$1.69]
+chikipuki folds
+** Summary **
+Thomthumb23 collected [ $3.22 ]
+
+***** 888poker Hand History for Game 576634914 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:00:52
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 5
+Seat 2: Benman75 ( $5 )
+Seat 4: Spirousss88 ( $10.65 )
+Seat 6: 0xferr ( $28.05 )
+Seat 7: chikipuki ( $25 )
+Seat 9: Thomthumb23 ( $41.20 )
+0xferr posts small blind [$0.10]
+chikipuki posts big blind [$0.25]
+Benman75 posts dead blind [$0.10 + $0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 5c, 6c, 7d, 9d ]
+Thomthumb23 calls [$0.25]
+Benman75 checks
+Spirousss88 calls [$0.25]
+0xferr calls [$0.15]
+chikipuki raises [$1.35]
+Thomthumb23 calls [$1.35]
+Benman75 folds
+Spirousss88 calls [$1.35]
+0xferr calls [$1.35]
+** Dealing flop ** [ 3s, Kd, 8h ]
+0xferr checks
+chikipuki checks
+Thomthumb23 checks
+Spirousss88 checks
+** Dealing turn ** [ 2s ]
+0xferr checks
+chikipuki checks
+Thomthumb23 bets [$2.22]
+Spirousss88 calls [$2.22]
+0xferr folds
+chikipuki calls [$2.22]
+** Dealing river ** [ Jh ]
+chikipuki checks
+Thomthumb23 bets [$6.70]
+Spirousss88 folds
+chikipuki folds
+** Summary **
+Thomthumb23 collected [ $12.74 ]
+
+***** 888poker Hand History for Game 576634986 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:02:45
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 5
+Seat 2: Benman75 ( $4.65 )
+Seat 4: Spirousss88 ( $6.83 )
+Seat 6: 0xferr ( $26.45 )
+Seat 7: chikipuki ( $25 )
+Seat 9: Thomthumb23 ( $50.12 )
+chikipuki posts small blind [$0.10]
+Thomthumb23 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Jc, Ks, 8c, 2h ]
+Benman75 folds
+Spirousss88 folds
+0xferr folds
+chikipuki raises [$0.65]
+Thomthumb23 calls [$0.50]
+** Dealing flop ** [ Js, 3s, 4s ]
+chikipuki checks
+Thomthumb23 checks
+** Dealing turn ** [ Ad ]
+chikipuki bets [$1.50]
+Thomthumb23 folds
+** Summary **
+chikipuki collected [ $1.42 ]
+
+***** 888poker Hand History for Game 576635034 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:03:58
+Table Cheonan 6 Max (Real Money)
+Seat 7 is the button
+Total number of players : 5
+Seat 1: KatamaranUA ( $25 )
+Seat 4: Spirousss88 ( $6.83 )
+Seat 6: 0xferr ( $26.45 )
+Seat 7: chikipuki ( $25.67 )
+Seat 9: Thomthumb23 ( $49.37 )
+Thomthumb23 posts small blind [$0.10]
+KatamaranUA posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 4d, 3c, Kd, 8h ]
+Spirousss88 folds
+0xferr folds
+chikipuki raises [$0.85]
+Thomthumb23 calls [$0.75]
+KatamaranUA folds
+** Dealing flop ** [ 9s, 3d, 8d ]
+Thomthumb23 checks
+chikipuki bets [$0.98]
+Thomthumb23 folds
+** Summary **
+chikipuki did not show his hand
+chikipuki collected [ $1.85 ]
+
+***** 888poker Hand History for Game 576635065 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:04:50
+Table Cheonan 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 5
+Seat 1: KatamaranUA ( $25 )
+Seat 4: Spirousss88 ( $6.83 )
+Seat 6: 0xferr ( $26.45 )
+Seat 7: chikipuki ( $26.67 )
+Seat 9: Thomthumb23 ( $48.52 )
+KatamaranUA posts small blind [$0.10]
+Spirousss88 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 7d, 4c, Ks, 9h ]
+0xferr folds
+chikipuki raises [$0.85]
+Thomthumb23 folds
+KatamaranUA folds
+Spirousss88 folds
+** Summary **
+chikipuki did not show his hand
+chikipuki collected [ $0.60 ]
+
+***** 888poker Hand History for Game 576635074 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:05:07
+Table Cheonan 6 Max (Real Money)
+Seat 1 is the button
+Total number of players : 5
+Seat 1: KatamaranUA ( $25 )
+Seat 4: Spirousss88 ( $6.58 )
+Seat 6: 0xferr ( $26.45 )
+Seat 7: chikipuki ( $27.02 )
+Seat 9: Thomthumb23 ( $48.52 )
+Spirousss88 posts small blind [$0.10]
+0xferr posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 9d, 9s, Ts, Js ]
+chikipuki folds
+Thomthumb23 calls [$0.25]
+KatamaranUA folds
+Spirousss88 folds
+0xferr checks
+** Dealing flop ** [ 3c, Tc, 7d ]
+0xferr checks
+Thomthumb23 checks
+** Dealing turn ** [ 7c ]
+0xferr checks
+Thomthumb23 checks
+** Dealing river ** [ 8h ]
+0xferr bets [$0.30]
+Thomthumb23 calls [$0.30]
+** Summary **
+0xferr shows [ 9d, 9s, Ts, Js ]
+Thomthumb23 shows [ Qs, Kc, Qh, 4c ]
+Thomthumb23 collected [ $1.14 ]
+
+***** 888poker Hand History for Game 576635124 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:06:18
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 5
+Seat 1: KatamaranUA ( $25 )
+Seat 4: Spirousss88 ( $6.48 )
+Seat 6: 0xferr ( $25.90 )
+Seat 7: chikipuki ( $27.02 )
+Seat 9: Thomthumb23 ( $49.11 )
+0xferr posts small blind [$0.10]
+chikipuki folds
+Thomthumb23 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Qs, 5h, 6c, Ad ]
+KatamaranUA raises [$0.62]
+Spirousss88 folds
+0xferr folds
+Thomthumb23 calls [$0.37]
+** Dealing flop ** [ 9c, 4h, 6s ]
+Thomthumb23 checks
+KatamaranUA checks
+** Dealing turn ** [ 2d ]
+Thomthumb23 bets [$0.25]
+KatamaranUA folds
+** Summary **
+Thomthumb23 did not show his hand
+Thomthumb23 collected [ $1.27 ]
+
+***** 888poker Hand History for Game 576635140 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:06:47
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 4
+Seat 1: KatamaranUA ( $25 )
+Seat 4: Spirousss88 ( $6.48 )
+Seat 6: 0xferr ( $25.80 )
+Seat 9: Thomthumb23 ( $49.76 )
+Thomthumb23 posts small blind [$0.10]
+KatamaranUA posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Jd, 4s, 7d, Jh ]
+Spirousss88 folds
+0xferr folds
+Thomthumb23 calls [$0.15]
+KatamaranUA checks
+** Dealing flop ** [ Ad, 4d, 8c ]
+Thomthumb23 checks
+KatamaranUA checks
+** Dealing turn ** [ 4h ]
+Thomthumb23 checks
+KatamaranUA bets [$0.49]
+Thomthumb23 folds
+** Summary **
+KatamaranUA collected [ $0.47 ]
+
+***** 888poker Hand History for Game 576635162 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:07:36
+Table Cheonan 6 Max (Real Money)
+Seat 9 is the button
+Total number of players : 5
+Seat 1: KatamaranUA ( $25.22 )
+Seat 2: Tomc007 ( $25 )
+Seat 4: Spirousss88 ( $6.48 )
+Seat 6: 0xferr ( $25.80 )
+Seat 9: Thomthumb23 ( $49.51 )
+KatamaranUA posts small blind [$0.10]
+Tomc007 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 7d, Td, 9s, Ah ]
+Spirousss88 folds
+0xferr folds
+Thomthumb23 raises [$0.85]
+KatamaranUA folds
+Tomc007 calls [$0.60]
+** Dealing flop ** [ 8d, Jc, Th ]
+Tomc007 checks
+Thomthumb23 bets [$0.59]
+Tomc007 calls [$0.59]
+** Dealing turn ** [ 7h ]
+Tomc007 checks
+Thomthumb23 checks
+** Dealing river ** [ As ]
+Tomc007 checks
+Thomthumb23 checks
+** Summary **
+Tomc007 shows [ Jd, 3h, 7s, Qs ]
+Thomthumb23 mucks [ Kd, Kc, 6s, 4h ]
+Tomc007 collected [ $2.83 ]
+
+***** 888poker Hand History for Game 576635197 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:08:15
+Table Cheonan 6 Max (Real Money)
+Seat 1 is the button
+Total number of players : 4
+Seat 1: KatamaranUA ( $25.12 )
+Seat 2: Tomc007 ( $26.39 )
+Seat 4: Spirousss88 ( $6.48 )
+Seat 6: 0xferr ( $25.80 )
+Tomc007 posts small blind [$0.10]
+Spirousss88 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 8h, 4c, As, 3c ]
+0xferr folds
+KatamaranUA folds
+Tomc007 calls [$0.15]
+Spirousss88 raises [$0.50]
+Tomc007 folds
+** Summary **
+Spirousss88 did not show his hand
+Spirousss88 collected [ $0.50 ]
+
+***** 888poker Hand History for Game 576635210 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:08:37
+Table Cheonan 6 Max (Real Money)
+Seat 2 is the button
+Total number of players : 4
+Seat 1: KatamaranUA ( $25.12 )
+Seat 2: Tomc007 ( $26.14 )
+Seat 4: Spirousss88 ( $6.73 )
+Seat 6: 0xferr ( $25.80 )
+Spirousss88 posts small blind [$0.10]
+0xferr posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 2c, 7s, Qh, 8h ]
+KatamaranUA raises [$0.62]
+Tomc007 calls [$0.62]
+Spirousss88 folds
+0xferr folds
+** Dealing flop ** [ Ks, 6s, Qs ]
+KatamaranUA checks
+Tomc007 checks
+** Dealing turn ** [ Ac ]
+KatamaranUA checks
+Tomc007 checks
+** Dealing river ** [ 3c ]
+KatamaranUA checks
+Tomc007 bets [$0.79]
+KatamaranUA folds
+** Summary **
+Tomc007 collected [ $1.51 ]
+
+***** 888poker Hand History for Game 576635239 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:09:07
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 5
+Seat 1: KatamaranUA ( $25 )
+Seat 2: Tomc007 ( $27.03 )
+Seat 4: Spirousss88 ( $6.63 )
+Seat 6: 0xferr ( $25.55 )
+Seat 7: COWARDSFOLD ( $5 )
+0xferr posts small blind [$0.10]
+COWARDSFOLD posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 3h, 7s, Td, 3c ]
+KatamaranUA folds
+Tomc007 calls [$0.25]
+Spirousss88 calls [$0.25]
+0xferr folds
+COWARDSFOLD checks
+** Dealing flop ** [ 5d, 6c, 8c ]
+COWARDSFOLD checks
+Tomc007 checks
+Spirousss88 checks
+** Dealing turn ** [ Jh ]
+COWARDSFOLD checks
+Tomc007 bets [$0.56]
+Spirousss88 raises [$1.68]
+COWARDSFOLD folds
+Tomc007 raises [$5.33]
+Spirousss88 folds
+** Summary **
+Tomc007 did not show his hand
+Tomc007 collected [ $4 ]
+
+***** 888poker Hand History for Game 576635263 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:09:53
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 5
+Seat 1: KatamaranUA ( $25 )
+Seat 2: Tomc007 ( $29.10 )
+Seat 4: Spirousss88 ( $4.70 )
+Seat 6: 0xferr ( $25.45 )
+Seat 7: COWARDSFOLD ( $4.75 )
+COWARDSFOLD posts small blind [$0.10]
+KatamaranUA posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 9h, Th, 5h, Jc ]
+Tomc007 calls [$0.25]
+Spirousss88 calls [$0.25]
+0xferr calls [$0.25]
+COWARDSFOLD folds
+KatamaranUA checks
+** Dealing flop ** [ 3d, 6h, Kd ]
+KatamaranUA checks
+Tomc007 checks
+Spirousss88 bets [$0.75]
+0xferr folds
+KatamaranUA folds
+Tomc007 calls [$0.75]
+** Dealing turn ** [ 8d ]
+Tomc007 checks
+Spirousss88 bets [$1.60]
+Tomc007 folds
+** Summary **
+Spirousss88 did not show his hand
+Spirousss88 collected [ $2.46 ]
+
+***** 888poker Hand History for Game 576635282 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:10:34
+Table Cheonan 6 Max (Real Money)
+Seat 7 is the button
+Total number of players : 5
+Seat 1: KatamaranUA ( $25 )
+Seat 2: Tomc007 ( $28.10 )
+Seat 4: Spirousss88 ( $6.16 )
+Seat 6: 0xferr ( $25.20 )
+Seat 7: COWARDSFOLD ( $4.65 )
+KatamaranUA posts small blind [$0.10]
+Tomc007 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 6h, Qh, 9c, 7h ]
+Spirousss88 folds
+0xferr folds
+COWARDSFOLD raises [$0.85]
+KatamaranUA folds
+Tomc007 calls [$0.60]
+** Dealing flop ** [ 8h, 9s, Ac ]
+Tomc007 checks
+COWARDSFOLD bets [$1.18]
+Tomc007 calls [$1.18]
+** Dealing turn ** [ 4s ]
+Tomc007 bets [$4.16]
+COWARDSFOLD calls [$2.62]
+** Dealing river ** [ 8d ]
+** Summary **
+Tomc007 shows [ Jh, 8s, Qs, 4h ]
+COWARDSFOLD shows [ As, 5c, Kd, 6s ]
+Tomc007 collected [ $8.93 ]
+
+***** 888poker Hand History for Game 576635307 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:11:09
+Table Cheonan 6 Max (Real Money)
+Seat 1 is the button
+Total number of players : 4
+Seat 1: KatamaranUA ( $25 )
+Seat 2: Tomc007 ( $32.38 )
+Seat 4: Spirousss88 ( $6.16 )
+Seat 6: 0xferr ( $25.20 )
+Tomc007 posts small blind [$0.10]
+Spirousss88 posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Th, Qc, 5c, 9s ]
+0xferr raises [$0.85]
+KatamaranUA calls [$0.85]
+Tomc007 folds
+Spirousss88 folds
+** Dealing flop ** [ 7s, 9d, 4d ]
+0xferr checks
+KatamaranUA checks
+** Dealing turn ** [ Td ]
+0xferr checks
+KatamaranUA checks
+** Dealing river ** [ 4h ]
+0xferr checks
+KatamaranUA checks
+** Summary **
+0xferr shows [ Th, Qc, 5c, 9s ]
+KatamaranUA shows [ As, 8d, Kc, Kh ]
+KatamaranUA collected [ $1.95 ]
+
+***** 888poker Hand History for Game 576635331 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:11:50
+Table Cheonan 6 Max (Real Money)
+Seat 2 is the button
+Total number of players : 4
+Seat 1: KatamaranUA ( $26.10 )
+Seat 2: Tomc007 ( $32.28 )
+Seat 4: Spirousss88 ( $5.91 )
+Seat 6: 0xferr ( $24.35 )
+Spirousss88 posts small blind [$0.10]
+0xferr posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ Ad, Jh, Ks, 2h ]
+KatamaranUA folds
+Tomc007 calls [$0.25]
+Spirousss88 raises [$0.65]
+0xferr calls [$0.50]
+Tomc007 calls [$0.50]
+** Dealing flop ** [ 7c, 4s, 3s ]
+Spirousss88 checks
+0xferr checks
+Tomc007 checks
+** Dealing turn ** [ 6h ]
+Spirousss88 checks
+0xferr checks
+Tomc007 checks
+** Dealing river ** [ 7d ]
+Spirousss88 bets [$1.73]
+0xferr folds
+Tomc007 raises [$3.46]
+Spirousss88 calls [$1.73]
+** Summary **
+Tomc007 shows [ 6s, Kh, 6c, Qh ]
+Spirousss88 mucks [ 5h, 9d, Kd, 8h ]
+Tomc007 collected [ $8.71 ]
+
+***** 888poker Hand History for Game 576635359 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:12:45
+Table Cheonan 6 Max (Real Money)
+Seat 4 is the button
+Total number of players : 5
+Seat 1: KatamaranUA ( $26.10 )
+Seat 2: Tomc007 ( $36.78 )
+Seat 4: Spirousss88 ( $1.70 )
+Seat 6: 0xferr ( $23.60 )
+Seat 7: Ogborow ( $25 )
+0xferr posts small blind [$0.10]
+Ogborow posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 2h, Ah, 8d, 5c ]
+KatamaranUA folds
+Tomc007 folds
+Spirousss88 raises [$0.85]
+0xferr folds
+Ogborow folds
+** Summary **
+Spirousss88 did not show his hand
+Spirousss88 collected [ $0.60 ]
+
+***** 888poker Hand History for Game 576635370 *****
+$0.12/$0.25 Blinds Pot Limit Omaha - *** 08 06 2023 02:13:05
+Table Cheonan 6 Max (Real Money)
+Seat 6 is the button
+Total number of players : 5
+Seat 1: KatamaranUA ( $26.10 )
+Seat 2: Tomc007 ( $36.78 )
+Seat 4: Spirousss88 ( $2.05 )
+Seat 6: 0xferr ( $23.50 )
+Seat 7: Ogborow ( $25 )
+Ogborow posts small blind [$0.10]
+KatamaranUA posts big blind [$0.25]
+** Dealing down cards **
+Dealt to 0xferr [ 4h, 9c, Qh, Jh ]
+Tomc007 folds
+Spirousss88 folds
+0xferr folds
+Ogborow raises [$0.65]
+KatamaranUA folds
+** Summary **
+Ogborow did not show his hand
+Ogborow collected [ $0.50 ]

@@ -1,0 +1,220 @@
+
+
+***** 888poker Hand History for Game 840281927 *****
+250/500 Blinds No Limit Holdem - *** 02 08 2023 23:13:25
+Tournament #238366197 Free - Table #189 9 Max (Real Money)
+Seat 2 is the button
+Total number of players : 6
+Seat 1: Rg882020rk ( 345 )
+Seat 2: KDS.em ( 3,620 )
+Seat 6: llamecuf ( 315 )
+Seat 7: KennysJR ( 23,990 )
+Seat 9: poddium ( 165 )
+Seat 10: 0xferr ( 24,604 )
+KennysJR posts ante [60]
+poddium posts ante [60]
+llamecuf posts ante [60]
+KDS.em posts ante [60]
+Rg882020rk posts ante [60]
+0xferr posts ante [60]
+llamecuf posts big blind [255]
+** Dealing down cards **
+Dealt to 0xferr [ 4d, Td ]
+KennysJR calls [500]
+poddium folds
+0xferr folds
+Rg882020rk folds
+KDS.em folds
+** Dealing flop ** [ Qs, 5c, Ah ]
+** Dealing turn ** [ 4h ]
+** Dealing river ** [ 4c ]
+** Summary **
+llamecuf shows [ Ks, Jh ]
+KennysJR shows [ 7h, Kd ]
+KennysJR collected [ 435 ]
+llamecuf collected [ 435 ]
+
+***** 888poker Hand History for Game 840282094 *****
+250/500 Blinds No Limit Holdem - *** 02 08 2023 23:13:56
+Tournament #238366197 Free - Table #189 9 Max (Real Money)
+Seat 5 is the button
+Total number of players : 8
+Seat 1: Rg882020rk ( 285 )
+Seat 2: KDS.em ( 3,560 )
+Seat 3: paul12763 ( 1,598 )
+Seat 4: Zckr56 ( 12,369 )
+Seat 6: llamecuf ( 435 )
+Seat 7: KennysJR ( 24,110 )
+Seat 9: poddium ( 105 )
+Seat 10: 0xferr ( 24,544 )
+KennysJR posts ante [60]
+poddium posts ante [60]
+llamecuf posts ante [60]
+KDS.em posts ante [60]
+Rg882020rk posts ante [60]
+0xferr posts ante [60]
+paul12763 posts ante [60]
+Zckr56 posts ante [60]
+llamecuf posts small blind [250]
+KennysJR posts big blind [500]
+** Dealing down cards **
+Dealt to 0xferr [ Ac, Ts ]
+poddium folds
+0xferr raises [1,250]
+Rg882020rk folds
+KDS.em raises [3,500]
+paul12763 folds
+Zckr56 calls [3,500]
+llamecuf folds
+KennysJR folds
+0xferr calls [2,250]
+** Dealing flop ** [ Qc, Td, 4c ]
+0xferr checks
+Zckr56 checks
+** Dealing turn ** [ Js ]
+0xferr checks
+Zckr56 checks
+** Dealing river ** [ Th ]
+0xferr bets [3,000]
+Zckr56 folds
+** Summary **
+KDS.em shows [ Tc, As ]
+0xferr shows [ Ac, Ts ]
+0xferr collected [ 5,865 ]
+KDS.em collected [ 5,865 ]
+
+***** 888poker Hand History for Game 840282450 *****
+250/500 Blinds No Limit Holdem - *** 02 08 2023 23:14:55
+Tournament #238366197 Free - Table #189 9 Max (Real Money)
+Seat 6 is the button
+Total number of players : 9
+Seat 1: Rg882020rk ( 225 )
+Seat 2: KDS.em ( 5,865 )
+Seat 3: paul12763 ( 1,538 )
+Seat 4: Zckr56 ( 8,809 )
+Seat 5: 456345634563 ( 4,687 )
+Seat 6: llamecuf ( 125 )
+Seat 7: KennysJR ( 23,550 )
+Seat 9: poddium ( 45 )
+Seat 10: 0xferr ( 26,849 )
+KennysJR posts ante [60]
+poddium posts ante [45]
+llamecuf posts ante [60]
+KDS.em posts ante [60]
+Rg882020rk posts ante [60]
+0xferr posts ante [60]
+paul12763 posts ante [60]
+Zckr56 posts ante [60]
+456345634563 posts ante [60]
+KennysJR posts small blind [250]
+poddium posts big blind [0]
+** Dealing down cards **
+Dealt to 0xferr [ 4s, Ah ]
+0xferr folds
+Rg882020rk folds
+KDS.em folds
+paul12763 folds
+Zckr56 calls [500]
+456345634563 folds
+llamecuf folds
+KennysJR calls [250]
+** Dealing flop ** [ Js, Ac, 3h ]
+KennysJR bets [500]
+Zckr56 calls [500]
+** Dealing turn ** [ 7c ]
+KennysJR checks
+Zckr56 checks
+** Dealing river ** [ 8h ]
+KennysJR bets [1,000]
+Zckr56 folds
+** Summary **
+KennysJR shows [ 3s, 2s ]
+poddium shows [ Jh, 9d ]
+KennysJR collected [ 2,120 ]
+poddium collected [ 405 ]
+
+***** 888poker Hand History for Game 840282753 *****
+250/500 Blinds No Limit Holdem - *** 02 08 2023 23:15:53
+Tournament #238366197 Free - Table #189 9 Max (Real Money)
+Seat 7 is the button
+Total number of players : 9
+Seat 1: Rg882020rk ( 165 )
+Seat 2: KDS.em ( 5,805 )
+Seat 3: paul12763 ( 1,478 )
+Seat 4: Zckr56 ( 7,749 )
+Seat 5: 456345634563 ( 4,627 )
+Seat 6: llamecuf ( 65 )
+Seat 7: KennysJR ( 24,610 )
+Seat 9: poddium ( 405 )
+Seat 10: 0xferr ( 26,789 )
+KennysJR posts ante [60]
+poddium posts ante [60]
+llamecuf posts ante [60]
+KDS.em posts ante [60]
+Rg882020rk posts ante [60]
+0xferr posts ante [60]
+paul12763 posts ante [60]
+Zckr56 posts ante [60]
+456345634563 posts ante [60]
+poddium posts small blind [250]
+0xferr posts big blind [500]
+** Dealing down cards **
+Dealt to 0xferr [ As, Kc ]
+Rg882020rk folds
+KDS.em folds
+paul12763 raises [1,418]
+Zckr56 folds
+456345634563 folds
+llamecuf folds
+KennysJR folds
+poddium folds
+0xferr calls [918]
+** Dealing flop ** [ Qc, 7h, 3h ]
+** Dealing turn ** [ 2c ]
+** Dealing river ** [ Kh ]
+** Summary **
+paul12763 shows [ Ks, Th ]
+0xferr shows [ As, Kc ]
+0xferr collected [ 3,626 ]
+
+***** 888poker Hand History for Game 840283050 *****
+300/600 Blinds No Limit Holdem - *** 02 08 2023 23:16:54
+Tournament #238366197 Free - Table #189 9 Max (Real Money)
+Seat 9 is the button
+Total number of players : 8
+Seat 1: Rg882020rk ( 105 )
+Seat 2: KDS.em ( 5,745 )
+Seat 4: Zckr56 ( 7,689 )
+Seat 5: 456345634563 ( 4,567 )
+Seat 6: llamecuf ( 5 )
+Seat 7: KennysJR ( 24,550 )
+Seat 9: poddium ( 95 )
+Seat 10: 0xferr ( 28,937 )
+KennysJR posts ante [70]
+poddium posts ante [70]
+llamecuf posts ante [5]
+KDS.em posts ante [70]
+Rg882020rk posts ante [70]
+0xferr posts ante [70]
+Zckr56 posts ante [70]
+456345634563 posts ante [70]
+0xferr posts small blind [300]
+Rg882020rk posts big blind [35]
+** Dealing down cards **
+Dealt to 0xferr [ 4h, Jc ]
+KDS.em raises [1,200]
+Zckr56 folds
+456345634563 folds
+KennysJR folds
+poddium folds
+0xferr folds
+** Dealing flop ** [ Ts, 8h, 9h ]
+** Dealing turn ** [ Jd ]
+** Dealing river ** [ 2d ]
+** Summary **
+Rg882020rk shows [ 5s, 5h ]
+KDS.em shows [ Kc, Th ]
+llamecuf shows [ Jh, Qc ]
+KDS.em collected [ 530 ]
+llamecuf collected [ 40 ]
+KDS.em collected [ 560 ]
