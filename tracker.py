@@ -9,27 +9,18 @@ START_DIR2 = r"C:\MyHandsArchive_H2N\2023\6\4"
 
 
 def analyze_dir(trdb: tracker_db, hh_dir=TEST_DIR, ids_in_db=set()):
-    # output = []
+    hands_imported = 0
     for subdir, dirs, files in os.walk(hh_dir):
         print(f"importing {subdir + os.sep}")
         for file in files:
             filepath = subdir + os.sep + file
             if file.endswith(".txt") and not ("ID #" in file):
                 with open(filepath, "r") as f:
-                    # print(f"Importing file {filepath}")
                     hh = f.read()
                     res = parse_file(hh, ids_in_db)
                     if res:
-                        trdb.import_hands(res)
-                        # output.append(res)
-
-
-# calculate rake for a single hand where:
-# data [0]=datetime [1]=Pot [2]=Bet [3]=Rake
-def rake_calc(data: list) -> Decimal:
-    cent = Decimal("0.01")
-    res = sum(map(lambda x: (x[3] * x[2] / x[1]), data))
-    return res.quantize(cent)
+                        hands_imported += trdb.import_hands(res)
+    print(f"Hands imported: {hands_imported}")
 
 
 # split list of tuples to several list for each week
@@ -54,10 +45,10 @@ if False:
         print("Error: File does not appear to exist.")
 
 # Test parse_file + parse_hand + import_hand
-if False:
+if True:
     trdb = tracker_db(clear_tables=True)
     ids_in_db = set()
-    trdb.hand_exist()
+    # trdb.hand_exist()
     try:
         analyze_dir(trdb, hh_dir=START_DIR2)
 
@@ -70,5 +61,6 @@ if True:
 
     trdb = tracker_db()
     result = trdb.get_rake(PLAYER)
-    print(rake_calc(result))
-    print(type(rake_calc(result)))
+    total_rake = sum(map(lambda x: x[1], result))
+    print(total_rake)
+    trdb.close()

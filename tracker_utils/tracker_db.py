@@ -11,8 +11,27 @@ class tracker_db:
         res = self._check_tables(clear_tables)
         print(res)
 
+    ### Service methods:
+    def _connect(self) -> None:
+        """Connect to the PostgreSQL database server"""
+        conn = None
+        try:
+            # connect to the PostgreSQL server
+            print("Connecting to the PostgreSQL database...")
+            conn = psycopg2.connect(**self.params)
+
+        except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+        finally:
+            return conn
+
+    # close connection
+    def close(self) -> None:
+        if self.conn is not None:
+            self.conn.close()
+
     # it checks if table exists
-    def _check_tables(self, clear_tables=False):
+    def _check_tables(self, clear_tables=False) -> None:
         cur = self.conn.cursor()
         cur.execute(
             f"""
@@ -28,28 +47,17 @@ class tracker_db:
         cur.close()
         if not table_exists:
             self._create_table()
-            return "Table is created now"
+            res = "Table is created now"
         elif clear_tables:
             self._drop_table()
             self._create_table()
-            return "Table is cleared"
-        return "Table already exists"
-
-    def _connect(self):
-        """Connect to the PostgreSQL database server"""
-        conn = None
-        try:
-            # connect to the PostgreSQL server
-            print("Connecting to the PostgreSQL database...")
-            conn = psycopg2.connect(**self.params)
-
-        except (Exception, psycopg2.DatabaseError) as error:
-            print(error)
-        finally:
-            return conn
+            res = "Table is cleared"
+        else:
+            res = "Table already exists"
+        print(res)
 
     # Create table
-    def _create_table(self):
+    def _create_table(self) -> None:
         command = f"""
                     CREATE TABLE {self.MAIN_TABLE} 
                     (
@@ -74,8 +82,21 @@ class tracker_db:
         cur.close()
         self.conn.commit()
 
+    def clear_table(self) -> None:
+        cur = self.conn.cursor()
+        cur.execute(f"DELETE FROM {self.MAIN_TABLE}")
+        cur.close()
+        self.conn.commit()
+
+    def _drop_table(self) -> None:
+        cur = self.conn.cursor()
+        cur.execute(f"DROP TABLE {self.MAIN_TABLE}")
+        cur.close()
+        self.conn.commit()
+
+    ### Data Methods:
     # Checks if hand is DB already
-    def hand_exist(self, id: int):
+    def hand_exist(self, id: int) -> bool:
         cur = self.conn.cursor()
         cur.execute(
             f"""
@@ -91,9 +112,9 @@ class tracker_db:
         return hand_exists
 
     # import one hand
-    def import_hand(self, hand: tuple | list):
+    def import_hand(self, hand: tuple | list) -> bool:
         sql = f"INSERT INTO {self.MAIN_TABLE} VALUES %s"
-        # check if hand already imported
+        # check if hand has already been imported
         if self.hand_exist(hand[0]):
             return False
         cur = self.conn.cursor()
@@ -105,20 +126,19 @@ class tracker_db:
         return True
 
     # import bunch of hands
-    def import_hands(self, hands: tuple | list):
+    def import_hands(self, hands: tuple | list) -> int:
         # removing from list hands that already exist in DB
         hands_to_import = list(filter(lambda x: not self.hand_exist(x[0]), hands))
         # check if there hands to import
         if len(hands_to_import) == 0:
-            return False
+            return 0
 
-        # bringing the lists of the hands_list to the same size, because psycopg2 is a piece of shit
+        # bringing the all hands to the same size, otherwise psycopg2 won't work
         hands_to_import.sort(key=len, reverse=True)
         max_len = len(hands_to_import[0])
         unified_hands = tuple(
             map(lambda x: x + (max_len - len(x)) * [None], hands_to_import)
         )
-
         # fill the table
         try:
             cur = self.conn.cursor()
@@ -126,33 +146,25 @@ class tracker_db:
             execute_values(cur, sql, unified_hands)
             cur.close()
             self.conn.commit()
-            return True
+            return len(hands_to_import)
         except Exception as exc:
             print(exc)
             return False
 
-    # close connection
-    def close(self):
-        if self.conn is not None:
-            self.conn.close()
+    # provides contributed rake for specified player and period
+    def get_rake(self, player: str, start_date=None, finish_date=None) -> list:
+        date_fltr = ""
+        if start_date and finish_date:
+            date_fltr = f" AND datetime BETWEEN {start_date} and {finish_date}"
+        elif start_date:
+            date_fltr = f" AND datetime > {start_date}"
+        elif finish_date:
+            date_fltr = f" AND datetime < {finish_date}"
 
-    def clear_table(self):
-        cur = self.conn.cursor()
-        cur.execute(f"DELETE FROM {self.MAIN_TABLE}")
-        cur.close()
-        self.conn.commit()
-
-    def _drop_table(self):
-        cur = self.conn.cursor()
-        cur.execute(f"DROP TABLE {self.MAIN_TABLE}")
-        cur.close()
-        self.conn.commit()
-
-    # provides data for rake calculation for specified player
-    def get_rake(self, player: str) -> list:
         output = []
         for i in range(1, 11):
-            sql = f"SELECT datetime, total_pot, p{i}_bets, rake  FROM main WHERE p{i}='{player}' AND p{i}_bets>0"
+            sql = f"SELECT datetime, rake * p{i}_bets / total_pot FROM main WHERE p{i}='{player}' AND p{i}_bets>0"
+            sql += date_fltr
             cur = self.conn.cursor()
             cur.execute(sql)
             output.extend(cur.fetchall())

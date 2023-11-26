@@ -4,7 +4,7 @@ import pytz
 from decimal import *
 
 
-def find_digits(num: str):
+def find_digits(num: str) -> Decimal:
     res = re.findall("\d+\.\d+", num)
     if len(res) == 0:
         res = re.findall("\d+", num)
@@ -14,7 +14,7 @@ def find_digits(num: str):
     return Decimal(res[-1])
 
 
-def parse_hand(hand_id: int, hh: str):
+def parse_hand(hand_id: int, hh: str) -> list:
     # Constants
     NAMES = "Seat \d{1,2}: (\S+) "
     BLINDS = " posts "
@@ -155,16 +155,16 @@ def parse_hand(hand_id: int, hh: str):
     return output
 
 
-def parse_file(file: str, ids_in_db=None):
+def parse_file(file: str, ids_in_db: set = None) -> list:
     NEW_HAND_TEXT = "888poker Hand History for Game (\d{7,12})"
     TOURNAMENT = "Tournament #"
 
     output = []
-    hands_imported = 0
+    hands_to_import = 0
 
     # Skipping Tournaments
     if TOURNAMENT in file:
-        return False
+        return output
 
     hands = file.split("\n\n")
     for hand in hands:
@@ -189,7 +189,7 @@ def parse_file(file: str, ids_in_db=None):
             print(f"Empty hand returned: ID: {id}\nHH:\n{hand}")
             continue
         output.append(parsed_hand)
-        hands_imported += 1
+        hands_to_import += 1
     return output
 
 
