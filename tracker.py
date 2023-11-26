@@ -16,8 +16,18 @@ CUR_MONTH = 3
 PREV_MONTH = 4
 
 
+def time_deco(func):
+    def wrap_func(*args, **kwargs):
+        start = datetime.now()
+        func(*args, **kwargs)
+        print(datetime.now() - start)
+
+    return wrap_func
+
+
 # import hand history files from the specified folder
-def analyze_dir(trdb: tracker_db, hh_dir=TEST_DIR, ids_in_db=set()):
+@time_deco
+def analyze_dir(trdb: tracker_db, hh_dir=TEST_DIR, ids=set()):
     hands_imported = 0
     for subdir, dirs, files in os.walk(hh_dir):
         print(f"importing {subdir + os.sep}")
@@ -26,7 +36,7 @@ def analyze_dir(trdb: tracker_db, hh_dir=TEST_DIR, ids_in_db=set()):
             if file.endswith(".txt") and not ("ID #" in file):
                 with open(filepath, "r") as f:
                     hh = f.read()
-                    res = parse_file(hh, ids_in_db)
+                    res = parse_file(hh, ids)
                     if res:
                         hands_imported += trdb.import_hands(res)
     print(f"Hands imported: {hands_imported}")
@@ -64,7 +74,7 @@ def period_to_dates(period: str) -> tuple[datetime, datetime]:
 
 
 # calculate cumulative profit
-def cumulate_profit(data: list) -> list:
+def cumulate_profit(data: list[Decimal]) -> list[Decimal]:
     cumulative_values = []
     cumulative_sum = 0
     for value in data:
@@ -141,7 +151,12 @@ def get_profit_chart(
 
 
 # split list of tuples to several list for each week
-def split_by_week(data: list) -> tuple:
+def split_by_week(data: list[datetime, Decimal]) -> tuple[list, ...]:
+    pass
+
+
+# split list of tuples to several list for each week
+def split_by_month(data: list[datetime, Decimal]) -> tuple[list, ...]:
     pass
 
 
@@ -162,12 +177,11 @@ if False:
         print("Error: File does not appear to exist.")
 
 # Test parse_file + parse_hand + import_hand
-if False:
+if True:
     trdb = tracker_db(clear_tables=False)
-    ids_in_db = set()
-    # trdb.hand_exist()
+    ids_in_db = trdb.get_all_ids()
     try:
-        analyze_dir(trdb, hh_dir=START_DIR2)
+        analyze_dir(trdb, hh_dir=START_DIR2, ids=ids_in_db)
 
     except IOError:
         print("Error: File does not appear to exist.")
@@ -201,6 +215,6 @@ if True:
     print(f"This month:\t{rake_this_month}\t{profit_this_month}")
     print(f"Previous month:\t{rake_prev_month}\t{profit_prev_month}")
 
-    get_profit_chart(trdb, PLAYER)
+    get_profit_chart(trdb, PLAYER, CUR_MONTH)
 
     trdb.close()

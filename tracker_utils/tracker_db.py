@@ -164,13 +164,14 @@ class tracker_db:
         output = []
         for i in range(1, 11):
             sql = (
-                f"SELECT datetime, (rake * p{i}_bets / total_pot) FROM main"
+                f"SELECT datetime, (rake * p{i}_bets / total_pot) FROM {self.MAIN_TABLE}"
                 f" WHERE p{i}='{player}' AND p{i}_bets>0 AND rake>0"
             )
             sql = sql + date_fltr
             cur = self.conn.cursor()
             cur.execute(sql)
             output.extend(cur.fetchall())
+            cur.close()
         return output
 
     # returns the list containing profit data for specified player and period
@@ -186,13 +187,23 @@ class tracker_db:
         output = []
         for i in range(1, 11):
             sql = (
-                f"SELECT datetime, (p{i}_result - p{i}_bets) FROM main"
+                f"SELECT datetime, (p{i}_result - p{i}_bets) FROM {self.MAIN_TABLE}"
                 f" WHERE p{i}='{player}' AND p{i}_bets>0"
             )
             sql = sql + date_fltr
             cur = self.conn.cursor()
             cur.execute(sql)
             output.extend(cur.fetchall())
+        return output
+
+    # get the IDs of all imported hands
+    def get_all_ids(self) -> set:
+        sql = f"SELECT id FROM {self.MAIN_TABLE}"
+        cur = self.conn.cursor()
+        cur.execute(sql)
+        result = cur.fetchall()
+        output = set(map(lambda x: x[0], result))
+        cur.close()
         return output
 
 

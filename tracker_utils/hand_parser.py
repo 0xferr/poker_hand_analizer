@@ -166,6 +166,12 @@ def parse_file(file: str, ids_in_db: set = None) -> list:
     if TOURNAMENT in file:
         return output
 
+    ids = re.findall(NEW_HAND_TEXT, file)
+    ids_in_file = set(map(lambda x: int(x), ids))
+    ids_in_file.difference_update(ids_in_db)
+    if not ids_in_file:
+        return output
+
     hands = file.split("\n\n")
     for hand in hands:
         if len(hand) < 20:
