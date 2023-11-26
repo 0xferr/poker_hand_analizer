@@ -155,16 +155,19 @@ class tracker_db:
     def get_rake(self, player: str, start_date=None, finish_date=None) -> list:
         date_fltr = ""
         if start_date and finish_date:
-            date_fltr = f" AND datetime BETWEEN {start_date} and {finish_date}"
+            date_fltr = f" AND datetime BETWEEN '{start_date}' and '{finish_date}'"
         elif start_date:
-            date_fltr = f" AND datetime > {start_date}"
+            date_fltr = f" AND datetime > '{start_date}'"
         elif finish_date:
-            date_fltr = f" AND datetime < {finish_date}"
+            date_fltr = f" AND datetime < '{finish_date}'"
 
         output = []
         for i in range(1, 11):
-            sql = f"SELECT datetime, rake * p{i}_bets / total_pot FROM main WHERE p{i}='{player}' AND p{i}_bets>0"
-            sql += date_fltr
+            sql = (
+                f"SELECT datetime, (rake * p{i}_bets / total_pot) FROM main"
+                f" WHERE p{i}='{player}' AND p{i}_bets>0 AND rake>0"
+            )
+            sql = sql + date_fltr
             cur = self.conn.cursor()
             cur.execute(sql)
             output.extend(cur.fetchall())
