@@ -3,10 +3,12 @@ from tracker_utils import *
 from functools import reduce
 from decimal import *
 from datetime import datetime, timezone, timedelta
+import matplotlib.pyplot as plt
 
 TEST_DIR = "./test_hhs"
 START_DIR = r"C:\MyHandsArchive_H2N\Pacific\2023\11"
-START_DIR2 = r"C:\MyHandsArchive_H2N\2023\10"
+START_DIR2 = r"C:\MyHandsArchive_H2N\2023"
+OUTPUT_DIR = r"./charts/"
 
 CUR_WEEK = 1
 PREV_WEEK = 2
@@ -14,6 +16,7 @@ CUR_MONTH = 3
 PREV_MONTH = 4
 
 
+# import hand history files from the specified folder
 def analyze_dir(trdb: tracker_db, hh_dir=TEST_DIR, ids_in_db=set()):
     hands_imported = 0
     for subdir, dirs, files in os.walk(hh_dir):
@@ -60,11 +63,39 @@ def period_to_dates(period: str) -> tuple[datetime, datetime]:
     return start_date, end_date
 
 
+# calculate cumulative profit
+def cumulate_profit(data: list) -> list:
+    cumulative_values = []
+    cumulative_sum = 0
+    for value in data:
+        cumulative_sum += value
+        cumulative_values.append(cumulative_sum)
+    return cumulative_values
+
+
 # get the rake for selected player. Start date and end date can be specified
-# predefined_period can be only one of these:
-#    CUR_WEEK = 1 PREV_WEEK = 2 CUR_MONTH = 3 PREV_MONTH = 4
-# if predefined_period is set, it will owerwrite start and end dates
 def get_rake(
+    db: tracker_db,
+    player: str,
+    predefined_period: str = None,
+    start_date: datetime = None,
+    end_date: datetime = None,
+) -> Decimal:
+    """
+    predefined_period can be only one of these:
+    CUR_WEEK = 1 PREV_WEEK = 2 CUR_MONTH = 3 PREV_MONTH = 4
+    if predefined_period is set, it will owerwrite start and end dates
+    """
+    cent = Decimal("0.01")
+    if predefined_period:
+        start_date, end_date = period_to_dates(predefined_period)
+    result = db.get_rake(player, start_date, end_date)
+    total_rake = sum(map(lambda x: x[1], result))
+    return total_rake.quantize(cent)
+
+
+# get the profit for selected player. Start, end dates or period can be specified
+def get_profit_summary(
     db: tracker_db,
     player: str,
     predefined_period: str = None,
@@ -74,9 +105,39 @@ def get_rake(
     cent = Decimal("0.01")
     if predefined_period:
         start_date, end_date = period_to_dates(predefined_period)
-    result = db.get_rake(player, start_date, end_date)
-    total_rake = sum(map(lambda x: x[1], result))
-    return total_rake.quantize(cent)
+    result = db.get_result(player, start_date, end_date)
+    total_profit = sum(map(lambda x: x[1], result))
+    return total_profit.quantize(cent)
+
+
+# get the rake for selected player. Start, end dates or period can be specified
+def get_profit_chart(
+    db: tracker_db,
+    player: str,
+    predefined_period: str = None,
+    start_date: datetime = None,
+    end_date: datetime = None,
+) -> None:
+    if predefined_period:
+        start_date, end_date = period_to_dates(predefined_period)
+    result = db.get_result(player, start_date, end_date)
+    sorted_res = sorted(result, key=lambda x: x[0])
+    dates, values = zip(*sorted_res)
+    sum_profit = cumulate_profit(values)
+    hands = [i for i in range(len(values))]
+    plt.figure(figsize=(10, 6))
+    plt.plot(hands, sum_profit, linestyle="-", color="b")
+    plt.title("Profit")
+    plt.xlabel("Date")
+    plt.ylabel("$")
+    plt.grid(True)
+    file_name = (
+        f"chart_{dates[0].year}-{dates[0].month}-{dates[0].day}"
+        f"_to_{dates[-1].year}-{dates[-1].month}-{dates[-1].day}.png"
+    )
+    plt.show()
+    plt.savefig(OUTPUT_DIR + file_name)
+    plt.close()
 
 
 # split list of tuples to several list for each week
@@ -112,23 +173,34 @@ if False:
         print("Error: File does not appear to exist.")
     trdb.close()
 
-# Test rake calculation
+# Test profit and rake calculation
 if True:
     PLAYER = "0xferr"
-    start = datetime(2023, 11, 4, tzinfo=timezone.utc)
-    finish = datetime(2023, 11, 5, tzinfo=timezone.utc)
+    start = datetime(2023, 11, 1, tzinfo=timezone.utc)
+    finish = datetime(2023, 12, 1, tzinfo=timezone.utc)
     trdb = tracker_db()
+
     rake_specified_dates = get_rake(trdb, PLAYER, start_date=start, end_date=finish)
     rake_this_week = get_rake(trdb, PLAYER, CUR_WEEK)
     rake_prev_week = get_rake(trdb, PLAYER, PREV_WEEK)
     rake_this_month = get_rake(trdb, PLAYER, CUR_MONTH)
     rake_prev_month = get_rake(trdb, PLAYER, PREV_MONTH)
 
-    print("Rake:")
-    print(f"For period:\t{rake_specified_dates}")
-    print(f"This week:\t{rake_this_week}")
-    print(f"Previous week:\t{rake_prev_week}")
-    print(f"This month:\t{rake_this_month}")
-    print(f"Previous month:\t{rake_prev_month}")
+    profit_specified_dates = get_profit_summary(
+        trdb, PLAYER, start_date=start, end_date=finish
+    )
+    profit_this_week = get_profit_summary(trdb, PLAYER, CUR_WEEK)
+    profit_prev_week = get_profit_summary(trdb, PLAYER, PREV_WEEK)
+    profit_this_month = get_profit_summary(trdb, PLAYER, CUR_MONTH)
+    profit_prev_month = get_profit_summary(trdb, PLAYER, PREV_MONTH)
+
+    print("\t\tRake:\tProfit:")
+    print(f"For period:\t{rake_specified_dates}\t{profit_specified_dates}")
+    print(f"This week:\t{rake_this_week}\t{profit_this_week}")
+    print(f"Previous week:\t{rake_prev_week}\t{profit_prev_week}")
+    print(f"This month:\t{rake_this_month}\t{profit_this_month}")
+    print(f"Previous month:\t{rake_prev_month}\t{profit_prev_month}")
+
+    get_profit_chart(trdb, PLAYER)
 
     trdb.close()
