@@ -1,5 +1,7 @@
 import os
 from tracker_utils import *
+from functools import reduce
+from decimal import *
 
 TEST_DIR = "./test_hhs"
 START_DIR = r"C:\MyHandsArchive_H2N\Pacific\2023"
@@ -22,6 +24,19 @@ def analyze_dir(trdb: tracker_db, hh_dir=TEST_DIR, ids_in_db=set()):
                         # output.append(res)
 
 
+# calculate rake for a single hand where:
+# data [0]=datetime [1]=Pot [2]=Bet [3]=Rake
+def rake_calc(data: list) -> Decimal:
+    cent = Decimal("0.01")
+    res = sum(map(lambda x: (x[3] * x[2] / x[1]), data))
+    return res.quantize(cent)
+
+
+# split list of tuples to several list for each week
+def split_by_week(data: list) -> tuple:
+    pass
+
+
 # Test parse_hand + import_hand
 if False:
     try:
@@ -39,7 +54,7 @@ if False:
         print("Error: File does not appear to exist.")
 
 # Test parse_file + parse_hand + import_hand
-if True:
+if False:
     trdb = tracker_db(clear_tables=True)
     ids_in_db = set()
     trdb.hand_exist()
@@ -49,3 +64,11 @@ if True:
     except IOError:
         print("Error: File does not appear to exist.")
     trdb.close()
+
+if True:
+    PLAYER = "0xferr"
+
+    trdb = tracker_db()
+    result = trdb.get_rake(PLAYER)
+    print(rake_calc(result))
+    print(type(rake_calc(result)))

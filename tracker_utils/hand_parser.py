@@ -4,11 +4,6 @@ import pytz
 from decimal import *
 
 
-def int_to_str(number: int):
-    temp = str(number)
-    return temp[:-2] + "." + temp[-2:]
-
-
 def find_digits(num: str):
     res = re.findall("\d+\.\d+", num)
     if len(res) == 0:
@@ -36,6 +31,7 @@ def parse_hand(hand_id: int, hh: str):
     PLO4 = "Pot Limit Omaha"
     NLHE = "No Limit Holdem"
     LOCAL_TZ = "Asia/Tbilisi"
+    DT_FORMAT = "%d %m %Y %H:%M:%S"
 
     no_names = " posts"
 
@@ -76,9 +72,8 @@ def parse_hand(hand_id: int, hh: str):
     # find the datetime
     srch = re.findall(DT, hh)
     if srch:
-        dt = datetime.strptime(srch[0], "%d %m %Y %H:%M:%S")
+        dt = datetime.strptime(srch[0], DT_FORMAT)
         timestamp = str(pytz.timezone(LOCAL_TZ).localize(dt))
-        # timestamp = dt.strftime("%d/%m/%Y, %H:%M:%S")
     else:
         print(f"Hand doesn't contain datetime. Skipping hand# {hand_id} ...")
         return None

@@ -148,6 +148,16 @@ class tracker_db:
         cur.close()
         self.conn.commit()
 
+    # provides data for rake calculation for specified player
+    def get_rake(self, player: str) -> list:
+        output = []
+        for i in range(1, 11):
+            sql = f"SELECT datetime, total_pot, p{i}_bets, rake  FROM main WHERE p{i}='{player}' AND p{i}_bets>0"
+            cur = self.conn.cursor()
+            cur.execute(sql)
+            output.extend(cur.fetchall())
+        return output
+
 
 if __name__ == "__main__":
     from config import config
