@@ -1,7 +1,11 @@
 from datetime import datetime
 import re
 import pytz
-from decimal import *
+from decimal import Decimal
+
+from tracker_utils.logger import logger
+
+lg = logger(__name__)
 
 
 def find_digits(num: str) -> Decimal:
@@ -9,7 +13,7 @@ def find_digits(num: str) -> Decimal:
     if len(res) == 0:
         res = re.findall("\d+", num)
         if len(res) == 0:
-            print(f"Error: Diffrent format of hand")
+            lg.warning(f"Error: Diffrent format of hand")
             return None
     return Decimal(res[-1])
 
@@ -50,7 +54,7 @@ def parse_hand(hand_id: int, hh: str) -> list:
     elif NLHE in hh:
         game_type = "NLHE"
     else:
-        print("Error: Unsopported game type")
+        lg.warning("Error: Unsopported game type")
         return None
     # Detect blinds level
     srch = re.findall(LIMITS, hh)
@@ -75,14 +79,14 @@ def parse_hand(hand_id: int, hh: str) -> list:
         dt = datetime.strptime(srch[0], DT_FORMAT)
         timestamp = str(pytz.timezone(LOCAL_TZ).localize(dt))
     else:
-        print(f"Hand doesn't contain datetime. Skipping hand# {hand_id} ...")
+        lg.warning(f"Hand doesn't contain datetime. Skipping hand# {hand_id} ...")
         return None
 
     # Extracting actions
     lines = re.split("\n", hh)
     for line in lines:
         if line.startswith(no_names):
-            print(f"Hand doesn't contain Names. Skipping hand# {hand_id} ...")
+            lg.warning(f"Hand doesn't contain Names. Skipping hand# {hand_id} ...")
             return None
         # search and extract bets for players in pot
         if BLINDS in line or CALL in line or BET in line or RAISE in line:
@@ -109,6 +113,9 @@ def parse_hand(hand_id: int, hh: str) -> list:
 
     # Calculating rake paid
     won = sum(wins.values())
+    if won == 0:
+        lg.warning("Hand #{hand_id} probably incomlete")
+        return None
     all_bets = sorted(players_bets.values())
     # detecting uncalled bets and fixing dict
     if all_bets[-1] != all_bets[-2]:
@@ -122,17 +129,17 @@ def parse_hand(hand_id: int, hh: str) -> list:
 
     # Cheking rake rules
     if rake < 0:
-        print(
+        lg.warning(
             f" ERROR: Negative Rake\n @ hand {hand_id}\n Rake={rake}\n Pot={pot}\n Won={won}\n players_bets{players_bets}\n Wins={wins}\n Ante={ante} "
         )
         return None
     if rake > 0 and not (FLOP in hh):
-        print(
+        lg.warning(
             f" ERROR Rake at No flop\n @ hand {hand_id}\n Rake={rake}\n Pot={pot}\n Won={won}\n players_bets{players_bets}\n Wins={wins}\n Ante={ante} "
         )
         return None
 
-    # prepare outpup
+    # prepare output
     output = [
         int(hand_id),
         timestamp,
@@ -143,6 +150,7 @@ def parse_hand(hand_id: int, hh: str) -> list:
         pot,
         rake,
     ]
+    # append betting history
     for pl in players:
         output.extend(
             [
@@ -155,6 +163,7 @@ def parse_hand(hand_id: int, hh: str) -> list:
     return output
 
 
+# parse HH file. IDs can be designated to faster import
 def parse_file(file: str, ids_in_db: set = None) -> list:
     NEW_HAND_TEXT = "888poker Hand History for Game (\d{7,12})"
     TOURNAMENT = "Tournament #"
@@ -180,11 +189,11 @@ def parse_file(file: str, ids_in_db: set = None) -> list:
         id = re.findall(NEW_HAND_TEXT, hand)
         # skipping text w\o id
         if not id:
-            print(f"Strange piece of text:\n{hand}")
+            lg.warning(f"Strange piece of text:\n{hand}")
             continue
         # check if more than one hand in text
         if len(id) != 1:
-            print(f"More than one hand in text: ID: {id}\nHH:\n{hand}")
+            lg.warning(f"More than one hand in text: ID: {id}\nHH:\n{hand}")
             continue
         id = int(id[0])
         # skipping hands that already exist in DB
@@ -192,7 +201,7 @@ def parse_file(file: str, ids_in_db: set = None) -> list:
             continue
         parsed_hand = parse_hand(id, hand)
         if parsed_hand is None:
-            print(f"Empty hand returned: ID: {id}\nHH:\n{hand}")
+            lg.warning(f"Empty hand returned: ID: {id}\nHH:\n{hand}")
             continue
         output.append(parsed_hand)
         hands_to_import += 1
@@ -205,6 +214,6 @@ if __name__ == "__main__":
         with open("./test_hh.txt", "r") as f:
             hh = f.read()
             id, dt, hh, *res = parse_hand("1234567890", hh, "PLO4")
-            print(f"\n#{id}\n{dt}\n{res}\n\n{hh}")
+            lg.warning(f"\n#{id}\n{dt}\n{res}\n\n{hh}")
     except IOError:
-        print("Error: File does not appear to exist.")
+        lg.error("Error: File does not appear to exist.")

@@ -1,0 +1,26 @@
+
+
+***** 888poker Hand History for Game 574441515 *****
+$0.50/$1 Blinds No Limit Holdem - *** 30 03 2023 22:18:24
+Table Kalamaria 9 Max (Real Money)
+Seat 4 is the button
+Total number of players : 9
+Seat 1: T_raw2022 ( $84.15 )
+Seat 2: IceWindA ( $151.75 )
+Seat 3: NeverToLate ( $132.29 )
+Seat 4: Gfoer888 ( $103 )
+Seat 5: CERBER_666 ( $100.50 )
+Seat 6: 0xferr ( $100 )
+Seat 7: Abelleris ( $100 )
+Seat 9: vadek888 ( $104.12 )
+Seat 10: PaymePlz7777 ( $123.18 )
+CERBER_666 posts small blind [$0.50]
+0xferr posts big blind [$1]
+** Dealing down cards **
+Dealt to 0xferr [ Qh, 7c ]
+Abelleris folds
+vadek888 folds
+PaymePlz7777 folds
+T_raw2022 calls [$1]
+IceWindA raises [$4]
+NeverToLate folds

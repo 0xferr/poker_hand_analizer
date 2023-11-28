@@ -1,6 +1,6 @@
 from datetime import datetime, timezone, timedelta
 from typing import Literal
-from decimal import *
+from decimal import Decimal
 
 CUR_WEEK = 1
 PREV_WEEK = 2

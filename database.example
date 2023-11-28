@@ -2,5 +2,5 @@
 host=localhost
 database=py_hh
 user=postgres
-password=159753
+password=postgre
 port=5432

@@ -1,6 +1,11 @@
 import psycopg2
-from tracker_utils.config import config
 from psycopg2.extras import execute_values
+from datetime import datetime
+from decimal import Decimal
+from tracker_utils.config import config
+from tracker_utils.logger import logger
+
+lg = logger("DB")
 
 
 class tracker_db:
@@ -8,8 +13,7 @@ class tracker_db:
         self.params = config()
         self.conn = self._connect()
         self.MAIN_TABLE = "main"
-        res = self._check_tables(clear_tables)
-        print(res)
+        self._check_tables(clear_tables)
 
     ### Service methods:
     def _connect(self) -> None:
@@ -17,11 +21,11 @@ class tracker_db:
         conn = None
         try:
             # connect to the PostgreSQL server
-            print("Connecting to the PostgreSQL database...")
+            lg.debug("Connecting to the PostgreSQL database...")
             conn = psycopg2.connect(**self.params)
 
         except (Exception, psycopg2.DatabaseError) as error:
-            print(error)
+            lg.error(error)
         finally:
             return conn
 
@@ -54,7 +58,7 @@ class tracker_db:
             res = "Table is cleared"
         else:
             res = "Table already exists"
-        print(res)
+        lg.info(res)
 
     # Create table
     def _create_table(self) -> None:
@@ -149,10 +153,12 @@ class tracker_db:
             return len(hands_to_import)
         except Exception as exc:
             print(exc)
-            return False
+            return 0
 
     # returns the list containing rake for specified player and period
-    def get_rake(self, player: str, start_date=None, finish_date=None) -> list:
+    def get_rake(
+        self, player: str, start_date=None, finish_date=None
+    ) -> list[tuple[datetime, Decimal]]:
         date_fltr = ""
         if start_date and finish_date:
             date_fltr = f" AND datetime BETWEEN '{start_date}' and '{finish_date}'"
@@ -175,7 +181,9 @@ class tracker_db:
         return output
 
     # returns the list containing profit data for specified player and period
-    def get_result(self, player: str, start_date=None, finish_date=None) -> list:
+    def get_profit(
+        self, player: str, start_date=None, finish_date=None
+    ) -> list[tuple[datetime, Decimal]]:
         date_fltr = ""
         if start_date and finish_date:
             date_fltr = f" AND datetime BETWEEN '{start_date}' and '{finish_date}'"
@@ -197,7 +205,7 @@ class tracker_db:
         return output
 
     # get the IDs of all imported hands
-    def get_all_ids(self) -> set:
+    def get_all_ids(self) -> set[int]:
         sql = f"SELECT id FROM {self.MAIN_TABLE}"
         cur = self.conn.cursor()
         cur.execute(sql)
