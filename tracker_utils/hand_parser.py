@@ -9,6 +9,9 @@ lg = logger(__name__)
 
 
 def find_digits(num: str) -> Decimal:
+    """
+    It looks for digits in sting, and returns it as a Decimal
+    """
     res = re.findall("\d+\.\d+", num)
     if len(res) == 0:
         res = re.findall("\d+", num)
@@ -19,6 +22,11 @@ def find_digits(num: str) -> Decimal:
 
 
 def parse_hand(hand_id: int, hh: str) -> list:
+    """
+    Parse single hand history for date, players names, their bets, dealt cards and result of the hand.
+    Returns list containing [hand id, timestamp, hand history, game_type, game_limit, number of players, pot, rake,
+    and for every player in hand: name, player cards, players bets incl. ante, wins
+    """
     # Constants
     NAMES = "Seat \d{1,2}: (\S+) "
     BLINDS = " posts "
@@ -165,6 +173,11 @@ def parse_hand(hand_id: int, hh: str) -> list:
 
 # parse HH file. IDs can be designated to faster import
 def parse_file(file: str, ids_in_db: set = None) -> list:
+    """
+    Parses hand history file. Collects their IDs. Checks if they are alredy imporded to database, and if not
+    takes history of each hand and sends it to parse_hand func.
+    Returns quantity of succesfully parsed hands.
+    """
     NEW_HAND_TEXT = "888poker Hand History for Game (\d{7,12})"
     TOURNAMENT = "Tournament #"
 
@@ -206,14 +219,3 @@ def parse_file(file: str, ids_in_db: set = None) -> list:
         output.append(parsed_hand)
         hands_to_import += 1
     return output
-
-
-if __name__ == "__main__":
-    # test parse_hand
-    try:
-        with open("./test_hh.txt", "r") as f:
-            hh = f.read()
-            id, dt, hh, *res = parse_hand("1234567890", hh, "PLO4")
-            lg.warning(f"\n#{id}\n{dt}\n{res}\n\n{hh}")
-    except IOError:
-        lg.error("Error: File does not appear to exist.")

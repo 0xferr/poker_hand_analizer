@@ -5,7 +5,7 @@ def logger(name: str):
     lg = logging.getLogger(name)
     lg.setLevel(logging.INFO)
     # create file handler which logs even debug messages
-    fh = logging.FileHandler(f"logs\{name}.log")
+    fh = logging.FileHandler("logs\\tracker.log")
     fh.setLevel(logging.DEBUG)
     # create console handler with a higher log level
     ch = logging.StreamHandler()

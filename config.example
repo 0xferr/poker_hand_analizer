@@ -4,3 +4,6 @@ database=py_hh
 user=postgres
 password=postgre
 port=5432
+[tracker]
+player_name=0xferr
+import_folder= 

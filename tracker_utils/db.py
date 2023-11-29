@@ -2,15 +2,29 @@ import psycopg2
 from psycopg2.extras import execute_values
 from datetime import datetime
 from decimal import Decimal
-from tracker_utils.config import config
+from tracker_utils.config import read_config
 from tracker_utils.logger import logger
 
 lg = logger("DB")
 
 
 class tracker_db:
+    """
+    Connects to PostgreSQL Database. It can creates, drop, clear table.
+    Import parsed Hand history. Returns rake and profit data.
+    Input:
+        clear_tables: if True delete all data in main table.
+    Methods:
+        close: close connection with DB
+        import_hand: imports single parsed hand in DB
+        import_hands: imports multiple hands
+        get_rake: returns rake for each hand for the indicated period
+        get_profit: returns profit/loss for each hand for the indicated period
+        get_all_ids: returns all IDs for hands stored in DB
+    """
+
     def __init__(self, clear_tables=False):
-        self.params = config()
+        self.params = read_config(section="postgresql")
         self.conn = self._connect()
         self.MAIN_TABLE = "main"
         self._check_tables(clear_tables)
@@ -23,19 +37,18 @@ class tracker_db:
             # connect to the PostgreSQL server
             lg.debug("Connecting to the PostgreSQL database...")
             conn = psycopg2.connect(**self.params)
-
         except (Exception, psycopg2.DatabaseError) as error:
             lg.error(error)
         finally:
             return conn
 
-    # close connection
     def close(self) -> None:
+        """Close the connection to the PostgreSQL database server"""
         if self.conn is not None:
             self.conn.close()
 
-    # it checks if table exists
     def _check_tables(self, clear_tables=False) -> None:
+        """Checks the existance of main table. If clear_tables=True drops and create main table"""
         cur = self.conn.cursor()
         cur.execute(
             f"""
@@ -60,8 +73,8 @@ class tracker_db:
             res = "Table already exists"
         lg.info(res)
 
-    # Create table
     def _create_table(self) -> None:
+        """Create the main table"""
         command = f"""
                     CREATE TABLE {self.MAIN_TABLE} 
                     (
@@ -87,20 +100,22 @@ class tracker_db:
         self.conn.commit()
 
     def clear_table(self) -> None:
+        """Delete all data in main table"""
         cur = self.conn.cursor()
         cur.execute(f"DELETE FROM {self.MAIN_TABLE}")
         cur.close()
         self.conn.commit()
 
     def _drop_table(self) -> None:
+        """Delete the main table"""
         cur = self.conn.cursor()
         cur.execute(f"DROP TABLE {self.MAIN_TABLE}")
         cur.close()
         self.conn.commit()
 
     ### Data Methods:
-    # Checks if hand is DB already
     def hand_exist(self, id: int) -> bool:
+        """Check if hand with ID is already exist"""
         cur = self.conn.cursor()
         cur.execute(
             f"""
@@ -115,8 +130,8 @@ class tracker_db:
         cur.close()
         return hand_exists
 
-    # import one hand
     def import_hand(self, hand: tuple | list) -> bool:
+        """Import sigle parsed hand to database"""
         sql = f"INSERT INTO {self.MAIN_TABLE} VALUES %s"
         # check if hand has already been imported
         if self.hand_exist(hand[0]):
@@ -129,8 +144,8 @@ class tracker_db:
         self.conn.commit()
         return True
 
-    # import bunch of hands
     def import_hands(self, hands: tuple | list) -> int:
+        """Import multiple parsed hand to database"""
         # removing from list hands that already exist in DB
         hands_to_import = list(filter(lambda x: not self.hand_exist(x[0]), hands))
         # check if there hands to import
@@ -155,19 +170,14 @@ class tracker_db:
             print(exc)
             return 0
 
-    # returns the list containing rake for specified player and period
     def get_rake(
         self, player: str, start_date=None, finish_date=None
     ) -> list[tuple[datetime, Decimal]]:
-        date_fltr = ""
-        if start_date and finish_date:
-            date_fltr = f" AND datetime BETWEEN '{start_date}' and '{finish_date}'"
-        elif start_date:
-            date_fltr = f" AND datetime > '{start_date}'"
-        elif finish_date:
-            date_fltr = f" AND datetime < '{finish_date}'"
-
+        """Return rake for each hand for specified player and period"""
         output = []
+        # creating date filter
+        date_fltr = self._generate_date_filter(start_date, finish_date)
+        # generating query
         for i in range(1, 11):
             sql = (
                 f"SELECT datetime, (rake * p{i}_bets / total_pot) FROM {self.MAIN_TABLE}"
@@ -182,17 +192,12 @@ class tracker_db:
 
     # returns the list containing profit data for specified player and period
     def get_profit(
-        self, player: str, start_date=None, finish_date=None
+        self, player: str, start_date: datetime = None, finish_date: datetime = None
     ) -> list[tuple[datetime, Decimal]]:
-        date_fltr = ""
-        if start_date and finish_date:
-            date_fltr = f" AND datetime BETWEEN '{start_date}' and '{finish_date}'"
-        elif start_date:
-            date_fltr = f" AND datetime > '{start_date}'"
-        elif finish_date:
-            date_fltr = f" AND datetime < '{finish_date}'"
-
+        """Return rake for each hand for specified player and period"""
         output = []
+        date_fltr = self._generate_date_filter(start_date, finish_date)
+        # generating query
         for i in range(1, 11):
             sql = (
                 f"SELECT datetime, (p{i}_result - p{i}_bets) FROM {self.MAIN_TABLE}"
@@ -204,8 +209,20 @@ class tracker_db:
             output.extend(cur.fetchall())
         return output
 
-    # get the IDs of all imported hands
+    def _generate_date_filter(self, start_date: datetime, finish_date: datetime) -> str:
+        """Generate date filter for SQL query"""
+        date_fltr = ""
+        # creating date filter
+        if start_date and finish_date:
+            date_fltr = f" AND datetime BETWEEN '{start_date}' and '{finish_date}'"
+        elif start_date:
+            date_fltr = f" AND datetime > '{start_date}'"
+        elif finish_date:
+            date_fltr = f" AND datetime < '{finish_date}'"
+        return date_fltr
+
     def get_all_ids(self) -> set[int]:
+        """Return the IDs of all hands in database"""
         sql = f"SELECT id FROM {self.MAIN_TABLE}"
         cur = self.conn.cursor()
         cur.execute(sql)
@@ -213,27 +230,3 @@ class tracker_db:
         output = set(map(lambda x: x[0], result))
         cur.close()
         return output
-
-
-if __name__ == "__main__":
-    from config import config
-    import datetime
-
-    to_clear = False
-    trdb = tracker_db()
-    dt = datetime.datetime.now()
-    trdb.import_hand(
-        1234567,
-        "long text",
-        str(dt),
-        4,
-        73,
-        12,
-        "player",
-        "As Ad Ts 9d",
-        10,
-        0,
-    )
-    if to_clear:
-        trdb.clear_tables()
-    trdb.close()
