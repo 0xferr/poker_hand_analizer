@@ -2,6 +2,7 @@ import argparse
 
 
 def parser():
+    """parse command line"""
     parser = argparse.ArgumentParser(description="CLI for tracker")
     parser.add_argument(
         "--import",
@@ -41,6 +42,7 @@ def parser():
 
 
 def print_results(profit, rake):
+    """print results"""
     print("\t\tProfit\t\tRake")
     print(f"For period:\t{profit[0]:.0f}\t\t{rake[0]:.0f}")
     print("Weekly")

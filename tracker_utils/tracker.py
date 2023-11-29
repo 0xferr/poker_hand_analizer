@@ -56,7 +56,6 @@ class Tracker:
         self.lg.info(f"Hands imported {hands_imported}")
         return hands_imported
 
-    # get the rake for selected player. Start date and end date can be specified
     def get_rake(
         self,
         period: PERIODS = None,
@@ -80,7 +79,6 @@ class Tracker:
         monthly = sum_by_month(result)
         return total_rake, weekly, monthly
 
-    # get the profit for selected player. Start, end dates or period can be specified
     def get_profit(
         self,
         period: PERIODS = None,
@@ -106,7 +104,6 @@ class Tracker:
             self._draw_chart(result)
         return total_profit, weekly, monthly
 
-    # get the rake for selected player. Start, end dates or period can be specified
     def _draw_chart(self, data) -> None:
         """
         It draws chart based on provided data, and saves it to file.
