@@ -41,11 +41,11 @@ def parser():
 
 
 def print_results(profit, rake):
-    print("\t\tProfit\tRake")
-    print(f"For period:\t{profit[0]:.2f}\t{rake[0]:.2f}")
+    print("\t\tProfit\t\tRake")
+    print(f"For period:\t{profit[0]:.0f}\t\t{rake[0]:.0f}")
     print("Weekly")
     for key in rake[1].keys():
-        print(f"{key}\t\t{profit[1][key]:.2f}\t{rake[1][key]:.2f}")
-    print("\nMonthly\t\tRake\tProfit")
+        print(f"{key}\t\t{profit[1][key]:.0f}\t\t{rake[1][key]:.0f}")
+    print("\nMonthly\t\tProfit\t\tRake")
     for key in rake[2].keys():
-        print(f"{key}\t\t{profit[2][key]:.2f}\t{rake[2][key]:.2f}")
+        print(f"{key}\t\t{profit[2][key]:.0f}\t\t{rake[2][key]:.0f}")

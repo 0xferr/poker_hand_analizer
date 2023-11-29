@@ -4,7 +4,7 @@ from decimal import Decimal
 
 CUR_WEEK = "cw"
 PREV_WEEK = "pw"
-CUR_MONTH = "pw"
+CUR_MONTH = "cm"
 PREV_MONTH = "pm"
 PERIODS = Literal["cw", "pw", "cm", "pm"]
 

@@ -1,12 +1,14 @@
-### This script works only with 888poker hand history.
-### It compute your Contributed Rake in the same was
-### as poker room did it.
-### Formula:  Rake*(your_investmets_in_pot/total_pot_size)
-### Also it shows your prifit according provided hand history.
-### Months that it will ask to input is the name of folder
-### in start folder (2023/8 or 2023/11) as Nand2Note store it.
-### You can specify it to avoid importing entire HH.
-### Or simply specify it in START_DIR.
+""" 
+This script works only with 888poker hand history.
+It compute your Contributed Rake in the same was
+as poker room did it.
+Formula:  Rake*(your_investmets_in_pot/total_pot_size)
+Also it shows your prifit according provided hand history.
+Months that it will ask to input is the name of folder
+in start folder (2023/8 or 2023/11) as Nand2Note store it.
+You can specify it to avoid importing entire HH.
+Or simply specify it in START_DIR.
+"""
 
 import re
 import os

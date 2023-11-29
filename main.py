@@ -23,7 +23,6 @@ def main():
     lg.info(args)
 
     tr = Tracker(player=player, chart=bool(args.chart))
-
     # Import HH to DB
     if args.import_hh:
         if args.import_hh != "":
@@ -34,6 +33,7 @@ def main():
     # setting player_name
     if args.player:
         tr.player = args.player
+        player = args.player
 
     # display results
     if args.results:
@@ -55,7 +55,7 @@ def main():
         elif args.results:
             if args.results in PERIODS_NAMES.keys():
                 period = args.results
-            else:
+            elif args.results != "all":
                 lg.error(
                     f"Wrong period '{args.results}'. Expecting one of these: {PERIODS_NAMES.keys}"
                 )

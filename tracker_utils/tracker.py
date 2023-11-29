@@ -94,7 +94,6 @@ class Tracker:
         end_date: indicate until what date the rake is calculated
         IMPORTANT! if predefined_period is set, start and end dates will be overwritten
         """
-
         if period:
             start_date, end_date = period_to_dates(period)
         result = self.db.get_profit(self.player, start_date, end_date)

@@ -1,0 +1,1 @@
+python.exe main.py --results before="01/08/2023"
