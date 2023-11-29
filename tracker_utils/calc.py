@@ -2,15 +2,16 @@ from datetime import datetime, timezone, timedelta
 from typing import Literal
 from decimal import Decimal
 
-CUR_WEEK = 1
-PREV_WEEK = 2
-CUR_MONTH = 3
-PREV_MONTH = 4
-PERIODS = Literal[1, 2, 3, 4]
+CUR_WEEK = "cw"
+PREV_WEEK = "pw"
+CUR_MONTH = "pw"
+PREV_MONTH = "pm"
+PERIODS = Literal["cw", "pw", "cm", "pm"]
 
 
 # transforms predefined periods to datetime
 def period_to_dates(period: PERIODS) -> tuple[datetime, datetime]:
+    """Transform Period to datetime"""
     today = datetime.now(tz=timezone.utc).replace(
         hour=0, minute=0, second=0, microsecond=0
     )
@@ -42,6 +43,7 @@ def period_to_dates(period: PERIODS) -> tuple[datetime, datetime]:
 
 # calculate cumulative profit
 def cumulate_profit(data: list[Decimal]) -> list[Decimal]:
+    """transform profit to cumulative profit (next=current + sum(previous))"""
     cumulative_values = []
     cumulative_sum = 0
     for value in data:
@@ -52,6 +54,7 @@ def cumulate_profit(data: list[Decimal]) -> list[Decimal]:
 
 # split list of tuples to several list for each week
 def sum_by_weeks(data: list[tuple[datetime, Decimal]]) -> dict[Decimal]:
+    """Split and sum data by week. Returns dict where key=#week value=sum(values in this week)"""
     result = {}
     for item in data:
         year, week, _ = item[0].isocalendar()
@@ -63,6 +66,7 @@ def sum_by_weeks(data: list[tuple[datetime, Decimal]]) -> dict[Decimal]:
 
 # split list of tuples to several list for each week
 def sum_by_month(data: list[tuple[datetime, Decimal]]) -> dict[Decimal]:
+    """Split and sum data by month. Returns dict where key=#month value=sum(values in this month)"""
     result = {}
     for item in data:
         month = f"0{item[0].month}" if item[0].month < 10 else str(item[0].month)
