@@ -1,10 +1,16 @@
-This tracker parses and imports hands played at 888poker. Calculates rake and profit for a specified period, and displays and saves a winning graph. It compute your Contributed Rake in the same way as poker room did it. Formula: Rake\ \* (your_investmets_in_pot/total_pot_size).
+This tracker parses and imports hands played at 888poker. Calculates rake and profit for a specified period, and displays and saves a winning graph. 
+It compute your Contributed Rake in the same way as poker room did it. 
+Formula: Rake\ \* (your_investmets_in_pot/total_pot_size).
 
 Rename config.example to config.ini. And fill it with your settings (your player_name, Import folder, postgre pasword/port etc.)
 
 CLI for tracker:
-
-options: -h, --help show this help message and exit --import [IMPORT_HH] Import hand history from the specified folder --results [RESULTS] Profit/Rake query in the format 'since|before=01/11/2023' or 'between=01/10/2023-20/10/2023'. Or 'cw'/'pw'/'cm'/'pm' for Current/Previous Week/Month --player PLAYER Specify Player name --chart [CHART] Show Chart --save [SAVE] Save Player_name and import_folder to config.ini
+-h, --help show this help message and exit 
+--import [IMPORT_HH] Import hand history from the specified folder 
+--results [RESULTS] Profit/Rake query in the format 'since|before=01/11/2023' or 'between=01/10/2023-20/10/2023'. 
+                    Or 'cw'/'pw'/'cm'/'pm' for Current/Previous Week/Month 
+--player PLAYER Specify Player name --chart [CHART] Show Chart 
+--save [SAVE] Save Player_name and import_folder to config.ini
 
 I'm planning to this features in future: Ability to filter omaha dealt hands by patter with option to export hand histories to file.
 
