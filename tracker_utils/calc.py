@@ -1,6 +1,7 @@
 from datetime import datetime, timezone, timedelta
 from typing import Literal
 from decimal import Decimal
+import pytz
 
 CUR_WEEK = "cw"
 PREV_WEEK = "pw"
@@ -57,7 +58,8 @@ def sum_by_weeks(data: list[tuple[datetime, Decimal]]) -> dict[Decimal]:
     """Split and sum data by week. Returns dict where key=#week value=sum(values in this week)"""
     result = {}
     for item in data:
-        year, week, _ = item[0].isocalendar()
+        date = item[0].astimezone(tz=pytz.utc)
+        year, week, _ = date.isocalendar()
         week = f"0{week}" if week < 10 else str(week)
         key = f"{year}-{week}"
         result[key] = result.get(key, 0) + item[1]
@@ -69,7 +71,8 @@ def sum_by_month(data: list[tuple[datetime, Decimal]]) -> dict[Decimal]:
     """Split and sum data by month. Returns dict where key=#month value=sum(values in this month)"""
     result = {}
     for item in data:
-        month = f"0{item[0].month}" if item[0].month < 10 else str(item[0].month)
-        key = f"{item[0].year}-{month}"
+        date = item[0].astimezone(tz=pytz.utc)
+        month = f"0{date.month}" if date.month < 10 else str(date.month)
+        key = f"{date.year}-{month}"
         result[key] = result.get(key, 0) + item[1]
     return dict(sorted(result.items()))

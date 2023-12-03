@@ -71,7 +71,7 @@ class tracker_db:
             res = "Table is cleared"
         else:
             res = "Table already exists"
-        lg.info(res)
+        lg.debug(res)
 
     def _create_table(self) -> None:
         """Create the main table"""

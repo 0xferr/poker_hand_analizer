@@ -44,7 +44,7 @@ class Tracker:
         ids = self.db.get_all_ids()
         hands_imported = 0
         for subdir, dirs, files in os.walk(path):
-            self.lg.info(f"importing {subdir + os.sep}")
+            self.lg.debug(f"importing {subdir + os.sep}")
             for file in files:
                 filepath = subdir + os.sep + file
                 if file.endswith(".txt"):

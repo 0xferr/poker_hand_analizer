@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timezone
 from tracker_utils.logger import logger
 from tracker_utils.tracker import Tracker
 from tracker_utils.config import read_config, update_config
@@ -13,6 +13,11 @@ PERIODS_NAMES = {
 }
 
 
+def str_to_dt(date: str):
+    res = datetime.strptime(date, "%d/%m/%Y")
+    return res.replace(tzinfo=timezone.utc)
+
+
 def main():
     config = read_config(section="tracker")
 
@@ -20,11 +25,11 @@ def main():
     folder = config["import_folder"]
 
     args = parser()
-    lg.info(args)
+    lg.debug(args)
 
     tr = Tracker(player=player, chart=bool(args.chart))
     # Import HH to DB
-    if args.import_hh:
+    if args.import_hh is not None:
         if args.import_hh != "":
             folder = args.import_hh
         print(f"Importing HHs from folder: {folder}")
@@ -44,13 +49,12 @@ def main():
         if len(parts) == 2:
             query_type, date_range = parts
             if query_type == "since":
-                start_date = datetime.strptime(date_range, "%d/%m/%Y")
+                start_date = str_to_dt(date_range)
             elif query_type == "before":
-                end_date = datetime.strptime(date_range, "%d/%m/%Y")
+                end_date = str_to_dt(date_range)
             elif query_type == "between":
                 start_date, end_date = map(
-                    lambda x: datetime.strptime(x, "%d/%m/%Y"),
-                    date_range.split("-"),
+                    lambda x: str_to_dt(x), date_range.split("-")
                 )
         elif args.results:
             if args.results in PERIODS_NAMES.keys():

@@ -45,9 +45,11 @@ def print_results(profit, rake):
     """print results"""
     print("\t\tProfit\t\tRake")
     print(f"For period:\t{profit[0]:.0f}\t\t{rake[0]:.0f}")
-    print("Weekly")
-    for key in rake[1].keys():
-        print(f"{key}\t\t{profit[1][key]:.0f}\t\t{rake[1][key]:.0f}")
-    print("\nMonthly\t\tProfit\t\tRake")
-    for key in rake[2].keys():
-        print(f"{key}\t\t{profit[2][key]:.0f}\t\t{rake[2][key]:.0f}")
+    if len(rake[1]) > 1:
+        print("\nWeekly\t\tProfit\t\tRake")
+        for key in rake[1].keys():
+            print(f"{key}\t\t{profit[1][key]:.0f}\t\t{rake[1][key]:.0f}")
+    if len(rake[2]) > 1:
+        print("\nMonthly\t\tProfit\t\tRake")
+        for key in rake[2].keys():
+            print(f"{key}\t\t{profit[2][key]:.0f}\t\t{rake[2][key]:.0f}")

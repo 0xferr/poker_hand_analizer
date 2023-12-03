@@ -62,7 +62,7 @@ def parse_hand(hand_id: int, hh: str) -> list:
     elif NLHE in hh:
         game_type = "NLHE"
     else:
-        lg.warning("Error: Unsopported game type")
+        lg.warning(f"Error: Unsopported game type. Skipping hand# {hand_id}")
         return None
     # Detect blinds level
     srch = re.findall(LIMITS, hh)
@@ -71,7 +71,12 @@ def parse_hand(hand_id: int, hh: str) -> list:
 
     # collect all players' names
     players = re.findall(NAMES, hh)
+
     for player in players:
+        # check player name is not empty
+        if player == " ":
+            lg.warning(f"Hand doesn't contain Names. Skipping hand# {hand_id} ...")
+            return None
         players_bets[player] = 0
     # collect dealt cards
     srch = re.findall(DEALT, hh)
@@ -93,9 +98,6 @@ def parse_hand(hand_id: int, hh: str) -> list:
     # Extracting actions
     lines = re.split("\n", hh)
     for line in lines:
-        if line.startswith(no_names):
-            lg.warning(f"Hand doesn't contain Names. Skipping hand# {hand_id} ...")
-            return None
         # search and extract bets for players in pot
         if BLINDS in line or CALL in line or BET in line or RAISE in line:
             words = line.split()
@@ -122,7 +124,7 @@ def parse_hand(hand_id: int, hh: str) -> list:
     # Calculating rake paid
     won = sum(wins.values())
     if won == 0:
-        lg.warning("Hand #{hand_id} probably incomlete")
+        lg.warning(f"Hand #{hand_id} probably incomlete")
         return None
     all_bets = sorted(players_bets.values())
     # detecting uncalled bets and fixing dict
@@ -137,13 +139,15 @@ def parse_hand(hand_id: int, hh: str) -> list:
 
     # Cheking rake rules
     if rake < 0:
-        lg.warning(
-            f" ERROR: Negative Rake\n @ hand {hand_id}\n Rake={rake}\n Pot={pot}\n Won={won}\n players_bets{players_bets}\n Wins={wins}\n Ante={ante} "
+        lg.warning(f" ERROR: Negative Rake @ hand {hand_id}")
+        lg.debug(
+            f"ERROR: Negative Rake @ hand#{hand_id}\nRake={rake}\nPot={pot}\nWon={won}\nbets{players_bets}\nWins={wins}\nAnte={ante}"
         )
         return None
     if rake > 0 and not (FLOP in hh):
-        lg.warning(
-            f" ERROR Rake at No flop\n @ hand {hand_id}\n Rake={rake}\n Pot={pot}\n Won={won}\n players_bets{players_bets}\n Wins={wins}\n Ante={ante} "
+        lg.warning(f" ERROR Rake at No flop @ hand #{hand_id}")
+        lg.debug(
+            f"ERROR: Rake at No flop @ hand {hand_id}\nRake={rake}\nPot={pot}\nWon={won}\nbets{players_bets}\nWins={wins}\nAnte={ante}"
         )
         return None
 
@@ -203,10 +207,12 @@ def parse_file(file: str, ids_in_db: set = None) -> list:
         # skipping text w\o id
         if not id:
             lg.warning(f"Strange piece of text:\n{hand}")
+            lg.debug(f"Strange piece of text:\n{hand}")
             continue
         # check if more than one hand in text
         if len(id) != 1:
-            lg.warning(f"More than one hand in text: ID: {id}\nHH:\n{hand}")
+            lg.warning(f"More than one hand in text: ID: {id}")
+            lg.debug(f"More than one hand in text: ID: {id}\nHH:\n{hand}")
             continue
         id = int(id[0])
         # skipping hands that already exist in DB
@@ -214,7 +220,7 @@ def parse_file(file: str, ids_in_db: set = None) -> list:
             continue
         parsed_hand = parse_hand(id, hand)
         if parsed_hand is None:
-            lg.warning(f"Empty hand returned: ID: {id}\nHH:\n{hand}")
+            lg.debug(f"Empty hand returned: ID: {id}\nHH:\n{hand}")
             continue
         output.append(parsed_hand)
         hands_to_import += 1
